@@ -66,3 +66,13 @@
   - (x, y, z)
   - Hard to visualize on paper
   - But easier in real life
+
+# Triangle
+
+- 3 points and 3 line segments
+- Sum of three angles = 180deg
+- Area = 1/2 x base x height
+- Based on equality between sides
+  - Equilateral
+  - Isosceles
+  - Scalene
