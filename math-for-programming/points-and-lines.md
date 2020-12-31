@@ -76,3 +76,12 @@
   - Equilateral
   - Isosceles
   - Scalene
+
+# Square
+
+- 4 points and 4 line segments
+- All sides are equal
+- Each angle is 90deg
+- Sum of four angles is 360deg
+- Area: (side_length)^2
+- Length of diagonal: root(2) x (side_length)
