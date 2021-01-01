@@ -94,3 +94,8 @@
 - Example:
   - 5^2 = 3^2 + 4^2
   - 13^2 = 5^2 + 12^2
+
+# Distance between two points
+
+- Can apply Pythagorean Theorem to get distance between A and B?
+- dsub(AB) = root((x1 - x2)^2 + (y1 - y2)^2)
