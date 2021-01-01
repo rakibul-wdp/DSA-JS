@@ -85,3 +85,12 @@
 - Sum of four angles is 360deg
 - Area: (side_length)^2
 - Length of diagonal: root(2) x (side_length)
+
+# Pythagorean Theorem
+
+- Pythagorean theorem
+  - c^2 = a^2 + b^2
+- Right-angle triangle and square
+- Example:
+  - 5^2 = 3^2 + 4^2
+  - 13^2 = 5^2 + 12^2
