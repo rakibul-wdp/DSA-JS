@@ -99,3 +99,11 @@
 
 - Can apply Pythagorean Theorem to get distance between A and B?
 - dsub(AB) = root((x1 - x2)^2 + (y1 - y2)^2)
+
+# Rectangle
+
+- 4 points and 4 line segments
+- Opposite sides are equal
+- Each angle is 90deg
+- Sum of four angles is 360deg
+- Area: length x height
