@@ -107,3 +107,10 @@
 - Each angle is 90deg
 - Sum of four angles is 360deg
 - Area: length x height
+
+# Circle
+
+- Center
+- Radius
+- Diameter
+- Area = pai x (radius)^2
