@@ -31,3 +31,23 @@ int main() {
 here is 3 mathematical operation and 1 assignment operation.
 total 4 operation and it's O(1), because never change value of n
 */
+
+int main() {
+  int i, n, result;
+
+  scanf("%d", &n);
+
+  result = 0;
+
+  for (i = 1; i <= n; i++) {
+    result = result + i;
+  }
+
+  printf("result = %d\n", result);
+
+  return 0;
+}
+
+/*
+here complexity depend on n that's why it's linier complexity, order of n complexity O(n)
+*/
