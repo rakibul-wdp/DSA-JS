@@ -70,7 +70,7 @@ int main() {
   return 0;
 }
 
-// here time complexity is O(n square)
+// here time complexity is O(n^2)
 
 int main() {
   int i, j, k, n, count;
@@ -91,4 +91,34 @@ int main() {
   return 0;
 }
 
-// here time complexity is O(n cube)
+// here time complexity is O(n^3)
+
+int main() {
+  int i, j, n, count;
+
+  scanf("%d", &n);
+
+  count = 0;
+  for (i = 0; i < n; i++) {
+    for (j = 0; j < n; j++) {
+      count = count + 1;
+    }
+  }
+
+  for (i = 0; i < n; i++) {
+    count = count + 1;
+  }
+
+  printf("count = %d\n", count);
+
+  return 0;
+}
+
+/* 
+here first nested loop n^2 and second loop is n, second n negligible so, time complexity is O(n square)
+
+=> O(n^2 + n) -> O(n^2)
+=> O(n! + n^3 + n) -> O(n!)
+=> O(n^3 + n) -> O(n^3)
+=> O(4n^4 + 2n^3 + n^n) -> O(n^4)
+*/
