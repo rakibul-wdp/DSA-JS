@@ -1,12 +1,14 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 int main() {
-  bool isProgrammingFun = false;
-  bool isFishTasty = true;
+  int myAge = 23;
+  int votingAge = 18;
 
-  printf("%d\n", isProgrammingFun);
-  printf("%d", isFishTasty);
+  if (myAge >= votingAge) {
+    printf("Old enough to vote!");
+  } else {
+    printf("Not odl enough to vote");
+  }
 
   return 0;
 }
