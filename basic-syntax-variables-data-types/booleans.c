@@ -1,14 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  int myAge = 23;
-  int votingAge = 18;
+  int time = 20;
 
-  if (myAge >= votingAge) {
-    printf("Old enough to vote!");
-  } else {
-    printf("Not odl enough to vote");
-  }
+  (time < 18) ? printf("Good day.") : printf("Good evening.");
 
   return 0;
 }
