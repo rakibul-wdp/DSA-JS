@@ -2,9 +2,11 @@
 
 int main() {
   int myNumbers[] = {25, 50, 75, 100};
-  myNumbers[0] = 33;
+  int i;
 
-  printf("%d", myNumbers[0]);
+  for (i = 0; i < 4; i++) {
+    printf("%d\n", myNumbers[i]);
+  }
 
-  return 0;
+    return 0;
 }
