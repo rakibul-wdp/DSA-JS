@@ -1,12 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  int myNumbers[] = {25, 50, 75, 100};
-  int i;
+  int matrix[2][3] = {{1, 4, 2}, {3, 6, 8}};
 
-  for (i = 0; i < 4; i++) {
-    printf("%d\n", myNumbers[i]);
-  }
+  printf("%d", matrix[0][2]);
 
-    return 0;
+  return 0;
 }
