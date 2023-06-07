@@ -2,8 +2,9 @@
 
 int main() {
   char greetings[] = "Hello World";
+  greetings[0] = 'J';
 
-  printf("%c", greetings[0]);
+  printf("%s", greetings);
 
   return 0;
 }
