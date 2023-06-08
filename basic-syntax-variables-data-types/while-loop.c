@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 int main() {
-  char greetings[] = "Hello World";
-  greetings[0] = 'J';
+  char carName[] = "Volvo";
+  int i;
 
-  printf("%s", greetings);
+  for (i = 0; i < 5; ++i) {
+    printf("%c\n", carName[i]);
+  }
 
-  return 0;
+    return 0;
 }
