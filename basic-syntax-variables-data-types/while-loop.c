@@ -1,12 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  char carName[] = "Volvo";
-  int i;
+  char greetings[] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!', '\0'};
 
-  for (i = 0; i < 5; ++i) {
-    printf("%c\n", carName[i]);
-  }
+  printf("%s", greetings);
 
-    return 0;
+  return 0;
 }
