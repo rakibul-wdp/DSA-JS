@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  char greetings[] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!', '\0'};
+  char txt[] = "We ar the \"Vikings\" from the north.";
 
-  printf("%s", greetings);
+  printf("%s", txt);
 
   return 0;
 }
