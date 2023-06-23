@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main() {
-  char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  char alphabet[50] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-  printf("%d", strlen(alphabet));
+  printf("%d\n", strlen(alphabet));
+  printf("%d", sizeof(alphabet));
 
   return 0;
 }
