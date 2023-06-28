@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 int main() {
-  char alphabet[50] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  char str1[20] = "Hello ";
+  char str2[] = "World!";
 
-  printf("%d\n", strlen(alphabet));
-  printf("%d", sizeof(alphabet));
+  strcat(str1, str2);
+
+  printf("%s", str1);
 
   return 0;
 }
