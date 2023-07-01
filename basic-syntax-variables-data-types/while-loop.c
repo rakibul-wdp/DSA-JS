@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 int main() {
-  char str1[] = "Hello";
-  char str2[] = "Hello";
-  char str3[] = "Hi";
+  int myNum;
 
-  printf("%d\n", strcmp(str1, str2));
-  printf("%d", strcmp(str1, str3));
+  printf("Type a number: \n");
+
+  scanf("%d", &myNum);
+
+  printf("Your number is: %d", myNum);
 
   return 0;
 }

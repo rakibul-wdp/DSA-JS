@@ -1,2 +1,2 @@
-0
--4
+Type a number: 
+Your number is: 50
