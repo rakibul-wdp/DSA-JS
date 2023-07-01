@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-  char str1[20] = "Hello World!";
-  char str2[20];
+  char str1[] = "Hello";
+  char str2[] = "Hello";
+  char str3[] = "Hi";
 
-  strcpy(str2, str1);
-
-  printf("%s", str2);
+  printf("%d\n", strcmp(str1, str2));
+  printf("%d", strcmp(str1, str3));
 
   return 0;
 }
