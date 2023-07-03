@@ -1,2 +1,3 @@
 Type a number: 
-Your number is: 50
+Your number is: 75
+Your char is: a
