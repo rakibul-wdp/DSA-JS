@@ -1,15 +1,11 @@
 #include <stdio.h>
 
 int main() {
-  int myNum;
-  char myChar;
+  int firstName[30];
 
-  printf("Type a number: \n");
+  scanf("%s", firstName);
 
-  scanf("%d %c", &myNum, &myChar);
-
-  printf("Your number is: %d\n", myNum);
-  printf("Your char is: %c", myChar);
+  printf("Hello %s", firstName);
 
   return 0;
 }
