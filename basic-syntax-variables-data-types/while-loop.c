@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-  int firstName[30];
+  int fullName[30];
 
-  scanf("%s", firstName);
+  fgets(fullName, sizeof(fullName), stdin);
 
-  printf("Hello %s", firstName);
+  printf("Hello %s", fullName);
 
   return 0;
 }
