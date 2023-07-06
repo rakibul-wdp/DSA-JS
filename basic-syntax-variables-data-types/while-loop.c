@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  int fullName[30];
+  int myAge = 23;
 
-  fgets(fullName, sizeof(fullName), stdin);
-
-  printf("Hello %s", fullName);
+  printf("%p", &myAge);
 
   return 0;
 }
