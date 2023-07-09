@@ -5,7 +5,7 @@ int main() {
   int i;
 
   for (i = 0; i < 4; i++) {
-    printf("%d\n", myNumbers[i]);
+    printf("%p\n", &myNumbers[i]);
   }
 
     return 0;
