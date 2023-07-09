@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-  int myAge = 23;
-  int *ptr = &myAge;
+  int myNumbers[4] = {25, 50, 75, 100};
+  int i;
 
-  printf("%d\n", *ptr);
+  for (i = 0; i < 4; i++) {
+    printf("%d\n", myNumbers[i]);
+  }
 
-  printf("%p\n", ptr);
-
-  return 0;
+    return 0;
 }
