@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  int myInt;
+  int myNumbers[4] = {25, 50, 75, 100};
 
-  printf("%lu", sizeof(myInt));
+  printf("%lu", sizeof(myNumbers));
 
   return 0;
 }
