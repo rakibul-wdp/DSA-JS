@@ -3,9 +3,9 @@
 int main() {
   int myNumbers[4] = {25, 50, 75, 100};
 
-  printf("%p\n", myNumbers);
+  printf("%d\n", *(myNumbers + 1));
 
-  printf("%p\n", &myNumbers[0]);
+  printf("%d", *(myNumbers + 2));
 
   return 0;
 }
