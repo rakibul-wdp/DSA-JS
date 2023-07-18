@@ -2,12 +2,13 @@
 
 int main() {
   int myNumbers[4] = {25, 50, 75, 100};
-  int *ptr = myNumbers;
-  int i;
+  *myNumbers = 13;
 
-  for (i = 0; i < 4; i++) {
-    printf("%d\n", *(ptr + i));
-  }
+  *(myNumbers + 1) = 17;
 
-    return 0;
+  printf("%d\n", *myNumbers);
+
+  printf("%d\n", *(myNumbers + 1));
+
+  return 0;
 }
