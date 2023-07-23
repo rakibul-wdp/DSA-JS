@@ -1,3 +1,3 @@
-Hello Abul
-Hello Babul
-Hello Cabul
+Hello Abul. You are 10 years old. 
+Hello Babul. You are 11 years old. 
+Hello Cabul. You are 12 years old. 
