@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-void myFunction() {
-  printf("I just got executed!");
+void myFunction(char name[]) {
+  printf("Hello %s\n", name);
 }
 
 int main() {
-  myFunction();
+  myFunction("Abul");
+  myFunction("Babul");
+  myFunction("Cabul");
 
   return 0;
 }
