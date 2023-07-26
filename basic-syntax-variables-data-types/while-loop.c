@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-void myFunction(char name[], int age) {
-  printf("Hello %s. You are %d years old. \n", name, age);
+void myFunction(int myNumbers[5]) {
+  for (int i = 0; i < 5; i++) {
+    printf("%d\n", myNumbers[i]);
+  }
 }
 
 int main() {
-  myFunction("Abul", 10);
-  myFunction("Babul", 11);
-  myFunction("Cabul", 12);
+  int myNumbers[5] = {10, 20, 30, 40, 50};
+  myFunction(myNumbers);
 
   return 0;
 }

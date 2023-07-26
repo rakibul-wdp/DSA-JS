@@ -1,3 +1,5 @@
-Hello Abul. You are 10 years old. 
-Hello Babul. You are 11 years old. 
-Hello Cabul. You are 12 years old. 
+10
+20
+30
+40
+50
