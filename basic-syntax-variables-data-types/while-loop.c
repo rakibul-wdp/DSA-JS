@@ -1,14 +1,11 @@
 #include <stdio.h>
 
-void myFunction(int myNumbers[5]) {
-  for (int i = 0; i < 5; i++) {
-    printf("%d\n", myNumbers[i]);
-  }
+int myFunction(int x) {
+  return 5 + x;
 }
 
 int main() {
-  int myNumbers[5] = {10, 20, 30, 40, 50};
-  myFunction(myNumbers);
+  printf("Result is: %d", myFunction(3));
 
   return 0;
 }
