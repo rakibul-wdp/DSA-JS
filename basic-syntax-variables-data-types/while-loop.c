@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-int myFunction(int x, int y) {
-  return x + y;
-}
+void myFunction();
 
 int main() {
-  printf("Result is: %d", myFunction(5, 4));
+  myFunction();
 
   return 0;
+}
+
+void myFunction() {
+  printf("I just got executed!");
 }
