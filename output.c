@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 int main() {
-  int abul, babul;
-  char cabul;
-  float dabul;
-  scanf("%d %f %c", &abul, &dabul, &cabul);
-  printf("%d %0.1f %c", abul, dabul, cabul);
+  int num1, num2;
+  char percent;
+  scanf("%d %c %d %c", &num1, &percent, &num2, &percent);
+  printf("%d%% %d%%", num1, percent, num2, percent);
 
   return 0;
 }
