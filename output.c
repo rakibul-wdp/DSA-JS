@@ -2,9 +2,8 @@
 
 int main() {
   int num1, num2;
-  char percent;
-  scanf("%d %c %d %c", &num1, &percent, &num2, &percent);
-  printf("%d%% %d%%", num1, percent, num2, percent);
+  scanf("%d%% %d%%", &num1, &num2);
+  printf("%d%% %d%%", num1, num2);
 
   return 0;
 }
