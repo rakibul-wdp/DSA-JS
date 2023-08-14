@@ -2,8 +2,10 @@
 
 int main() {
   int abul, babul;
-  scanf("%d %d", &abul, &babul);
-  printf("%d %d", abul, babul);
+  char cabul;
+  float dabul;
+  scanf("%d %f %c", &abul, &dabul, &cabul);
+  printf("%d %0.1f %c", abul, dabul, cabul);
 
   return 0;
 }
