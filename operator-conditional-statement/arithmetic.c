@@ -2,8 +2,8 @@
 
 int main() {
   int a = 3, b = 20;
-  float div = b * 1.0 / a;
-  printf("%f", div);
+  int mod = a % b;
+  printf("%d", mod);
 
   return 0;
 }
