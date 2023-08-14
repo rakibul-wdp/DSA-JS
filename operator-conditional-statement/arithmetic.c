@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  int a = 10, b = 20;
-  int mul = b * a;
-  printf("%d", mul);
+  int a = 3, b = 20;
+  float div = b * 1.0 / a;
+  printf("%f", div);
 
   return 0;
 }
