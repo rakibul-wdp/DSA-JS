@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int main() {
-  int num1, num2;
-  scanf("%da %db", &num1, &num2);
-  printf("%da %db", num1, num2);
+  int num = 1000000000;
+  printf("%d", num);
 
   return 0;
 }
