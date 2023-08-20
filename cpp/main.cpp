@@ -1,9 +1,14 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-  int file_size = 100;
-  double sales = 9.99;
-  std::cout << sales;
+  int a = 1;
+  int b = 2;
+  int temp = a;
+  a = b;
+  b = temp;
+
+  cout << a;
 
   return 0;
 }
