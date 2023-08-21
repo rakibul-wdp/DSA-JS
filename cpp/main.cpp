@@ -2,13 +2,12 @@
 using namespace std;
 
 int main() {
-  int a = 1;
-  int b = 2;
-  int temp = a;
-  a = b;
-  b = temp;
+  int file_size; // Snake Case
+  int FileSize; // Pascal Case
+  int fileSize; // Camel Case
+  int iFileSize; // Hungarian Notation
 
-  cout << a;
+  cout << "Nothing";
 
   return 0;
 }
