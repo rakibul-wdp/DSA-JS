@@ -2,11 +2,15 @@
 using namespace std;
 
 int main() {
-  int x;
-  
-  cin >> x;
+  int x, y;
+  int sum;
 
-  cout << x;
+  cin >> x;
+  cin >> y;
+
+  sum = x + y;
+
+  cout << sum;
 
   return 0;
 }
