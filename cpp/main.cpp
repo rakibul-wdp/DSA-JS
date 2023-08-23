@@ -2,11 +2,11 @@
 using namespace std;
 
 int main() {
-  string firstName;
+  string fullName;
 
-  cin >> firstName;
+  getline(cin, fullName);
 
-  cout << firstName;
+  cout << fullName;
 
   return 0;
 }
