@@ -1,10 +1,14 @@
 #include <iostream>
-#include <string>
-// using namespace std;
+#include <cmath>
+using namespace std;
 
 int main() {
-  std::string greeting = "Hello Nothing";
-  std::cout << greeting;
+  cout << max(5, 10);
+  cout << min(5, 10);
+
+  cout << sqrt(64);
+  cout << round(2.6);
+  cout << log(2);
 
   return 0;
 }
