@@ -2,13 +2,9 @@
 using namespace std;
 
 int main() {
-  int time = 20;
-
-  if (time < 18) {
-    cout << "Good day.";
-  } else {
-    cout << "Good evening";
+  for (int i = 0; i < 5; i++) {
+    cout << i << "\n";
   }
 
-  return 0;
+    return 0;
 }
