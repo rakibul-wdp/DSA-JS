@@ -18,3 +18,12 @@ int main() {
  * To output the value of an int variable, use %d or %i surrounded by double quotes
  * To print other types, use %c for char and %f for float
 */
+
+/**
+ * The general rules for naming variables are:
+ * Names can contain letters, digits and underscores
+ * Name must begin with a letter or an underscore(_)
+ * Names are case sensitive ("myVar" and "myvar" are different variables)
+ * Names cannot contain whitespaces or special characters like !, #, %, etc.
+ * Reserved words (such as int) cannot be used as names
+*/
