@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  int num1 = 5;
-  int num2 = 2;
-  float sum = (float) num1 / num2;
+  const int NUM = 1980;
 
-  printf("%.1f", sum);
+  printf("%d", NUM);
 
   return 0;
 }
@@ -13,4 +11,10 @@ int main() {
 /**
  * Implicit Conversion (automatically)
  * Explicit Conversion (manually)
+*/
+
+/**
+ * If you don't want to change existing variable values, you can use the const keyword.
+ * When you declare a constant variable, it must be assigned with a value.
+ * Good Practice: const declare with uppercase.
 */
