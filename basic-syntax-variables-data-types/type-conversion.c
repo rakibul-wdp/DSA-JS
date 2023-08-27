@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 int main() {
-  float sum = (float) 5 / 2;
+  int num1 = 5;
+  int num2 = 2;
+  float sum = (float) num1 / num2;
 
-  printf("%f", sum);
+  printf("%.1f", sum);
 
   return 0;
 }
