@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main() {
-  int myNum = 100 + 50;
+  int x = 5;
+  int y = 3;
 
-  printf("%d", myNum);
+  printf("%d", x > y);
 
   return 0;
 }
