@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  float sum = 5 / 2;
+  float sum = (float) 5 / 2;
 
   printf("%f", sum);
 
