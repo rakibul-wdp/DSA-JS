@@ -1,11 +1,14 @@
 #include <stdio.h>
 
 int main() {
-  int x = 5;
-  int y = 2;
-  int sum = 5 / 2;
+  float myFloat = 9;
 
-  printf("%d", sum);
+  printf("%f", myFloat);
 
   return 0;
 }
+
+/**
+ * Implicit Conversion (automatically)
+ * Explicit Conversion (manually)
+*/
