@@ -7,3 +7,11 @@ int main() {
 
   return 0;
 }
+
+/**
+ * Arithmetic operators
+ * Assignment operators
+ * Comparison operators
+ * Logical operators
+ * Bitwise operators
+*/
