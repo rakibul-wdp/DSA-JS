@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  float myFloat = 9;
+  float sum = 5 / 2;
 
-  printf("%f", myFloat);
+  printf("%f", sum);
 
   return 0;
 }
