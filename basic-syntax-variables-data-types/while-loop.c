@@ -5,7 +5,8 @@ int main() {
 
   while (i < 10) {
     if (i == 4) {
-      break;
+      i++;
+      continue;
     }
     printf("%d\n", i);
     i++;
