@@ -3,20 +3,15 @@
 struct myStructure {
   int myNum;
   char myLetter;
+  char myString[30];
 };
 
 int main() {
   struct myStructure s1;
-  struct myStructure s2;
 
-  s1.myNum = 15;
-  s1.myLetter = 'A';
+  strcpy(s1.myString, "Some text");
 
-  s2.myNum = 20;
-  s2.myLetter = 'C';
-
-  printf("My number: %d\n", s2.myNum);
-  printf("My letter: %c\n", s2.myLetter);
+  printf("My string: %s", s1.myString);
 
   return 0;
 }

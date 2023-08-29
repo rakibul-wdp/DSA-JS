@@ -1,2 +1,1 @@
-My number: 20
-My letter: C
+My string: Some text
