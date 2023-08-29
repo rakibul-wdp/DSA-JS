@@ -1,1 +1,1 @@
-My string: Some text
+13 B Some text
