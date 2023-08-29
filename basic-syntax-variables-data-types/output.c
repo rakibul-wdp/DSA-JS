@@ -8,8 +8,11 @@ struct myStructure {
 
 int main() {
   struct myStructure s1 = {13, 'B', "Some text"};
+  struct myStructure s2;
 
-  printf("%d %c %s", s1.myNum, s1.myLetter, s1.myString);
+  s2 = s1;
+
+  printf("%d %c %s", s2.myNum, s2.myLetter, s2.myString);
 
   return 0;
 }
