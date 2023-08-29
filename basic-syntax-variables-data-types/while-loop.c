@@ -1,10 +1,14 @@
 #include <stdio.h>
 
 int main() {
-  int i;
+  int i, j;
 
-  for (i = 0; i <= 10; i+=2) {
-    printf("%d\n", i);
+  for (i = 1; i <= 2; ++i) {
+    printf("Outer: %d\n", i);
+
+    for (j = 1; j <= 3; ++j) {
+      printf(" Inner: %d\n", j);
+    }
   }
 
     return 0;
