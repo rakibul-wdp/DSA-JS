@@ -1,1 +1,2 @@
-8.000000
+My number: 15
+My letter: A
