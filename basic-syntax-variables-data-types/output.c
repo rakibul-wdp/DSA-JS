@@ -8,11 +8,12 @@ struct myStructure {
 
 int main() {
   struct myStructure s1 = {13, 'B', "Some text"};
-  struct myStructure s2;
 
-  s2 = s1;
+  s1.myNum = 30;
+  s1.myLetter = 'C';
+  strcpy(s1.myString, "Something else");
 
-  printf("%d %c %s", s2.myNum, s2.myLetter, s2.myString);
+  printf("%d %c %s", s1.myNum, s1.myLetter, s1.myString);
 
   return 0;
 }
