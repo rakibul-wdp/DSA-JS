@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 enum Level {
-  LOW,
-  MEDIUM,
-  HIGH
+  LOW = 25,
+  MEDIUM = 50,
+  HIGH = 75
 };
 
 int main() {
