@@ -1,15 +1,26 @@
 #include <stdio.h>
 
 enum Level {
-  LOW = 25,
-  MEDIUM = 50,
-  HIGH = 75
+  LOW = 1,
+  MEDIUM,
+  HIGH
 };
 
 int main() {
   enum Level myVar = MEDIUM;
 
-  printf("%d", myVar);
+  switch (myVar)
+  {
+  case 1:
+    printf("Low Level");
+    break;
+  case 2:
+    printf("Medium Level");
+    break;
+  case 3:
+    printf("High Level");
+    break;
+  }
 
   return 0;
 }
