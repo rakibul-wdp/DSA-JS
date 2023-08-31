@@ -2,12 +2,10 @@
 using namespace std;
 
 int main() {
-  for (int i = 1; i <= 2; ++i) {
-    cout << "Outer: " << i << "\n";
+  string cars[5] = {"Volvo", "BMW", "Ford", "Mazda", "Tesla"};
 
-    for (int j = 1; j <= 3; ++j) {
-      cout << " Inner: " << j << "\n";
-    }
+  for (int i = 0; i < 5; i++) {
+    cout << cars[i] << "\n";
   }
 
     return 0;
