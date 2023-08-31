@@ -2,11 +2,12 @@
 using namespace std;
 
 int main() {
-  int myNumbers[5] = {10, 20, 30, 40, 50};
+  string letters[2][4] = {
+  { "A", "B", "C", "D" },
+  { "E", "F", "G", "H" }
+};
 
-  for (int i : myNumbers) {
-    cout << i << "\n";
-  }
+  cout << letters[0][2];
 
-    return 0;
+  return 0;
 }
