@@ -1,5 +1,5 @@
-0 = Volvo
-1 = BMW
-2 = Ford
-3 = Mazda
-4 = Tesla
+10
+20
+30
+40
+50
