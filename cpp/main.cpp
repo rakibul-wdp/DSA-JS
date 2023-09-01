@@ -7,11 +7,16 @@ class MyClass { // the class
     string myString; // attribute (string variable)
 };
 
-int main()
-{
-  int result = 5;
+int main() {
+  MyClass myObj; // create an object of MyClass
 
-  cout << result;
+  // access attributes and set values
+  myObj.myNum = 15;
+  myObj.myString = "Some text";
+
+  // print attribute values
+  cout << myObj.myNum << "\n";
+  cout << myObj.myString;
 
   return 0;
 }
