@@ -1,14 +1,18 @@
 #include <iostream>
 using namespace std;
 
-void myFunction(string fname, int age) {
-  cout << fname << " Reference. " << age << " years odl. \n";
+int sum(int k) {
+  if (k > 0) {
+    return k + sum(k - 1);
+  } else {
+    return 0;
+  }
 }
 
 int main() {
-  myFunction("Abul", 2);
-  myFunction("Babul", 3);
-  myFunction("Cabul", 4);
+  int result = sum(10);
+
+  cout << result;
 
   return 0;
 }
