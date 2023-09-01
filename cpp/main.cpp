@@ -3,9 +3,11 @@ using namespace std;
 
 class MyClass {
   public:
-    void myMethod() {
-      cout << "Hello World!";
-    }
+    void myMethod();
+};
+
+void MyClass::myMethod() {
+  cout << "Hello CPP";
 };
 
 int main() {
