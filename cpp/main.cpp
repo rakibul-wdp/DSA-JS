@@ -2,30 +2,33 @@
 using namespace std;
 
 // base class
-class Employee {
-  protected:
-    int salary;
+class Animal {
+  public:
+    void animalSound() {
+      cout << "The animal makes a sound \n";
+    }
 };
 
 // derived class
-class Programmer: public Employee {
+class Pig : public Animal {
   public:
-    int bonus;
-    void setSalary(int s) {
-      salary = s;
+    void animalSound() {
+      cout << "The pig says: wee wee \n";
     }
-    int getSalary() {
-      return salary;
+};
+
+// derived class
+class Dog : public Animal {
+  public:
+    void animalSound() {
+      cout << "The dog says: bow wow \n";
     }
 };
 
 int main() {
-  Programmer myObj;
-  myObj.setSalary(50000);
-  myObj.bonus = 15000;
+  
 
-  cout << "Salary: " << myObj.getSalary() << "\n";
-  cout << "Bonus: " << myObj.bonus << "\n";
+  
 
   return 0;
 }
