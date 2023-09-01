@@ -1,27 +1,31 @@
 #include <iostream>
 using namespace std;
 
-// base class (parent)
-class MyClass {
+// base class
+class Employee {
+  protected:
+    int salary;
+};
+
+// derived class
+class Programmer: public Employee {
   public:
-    void myFunction() {
-      cout << "Some content in parent class.";
+    int bonus;
+    void setSalary(int s) {
+      salary = s;
+    }
+    int getSalary() {
+      return salary;
     }
 };
 
-// derived class (child)
-class MyChild: public MyClass {
-};
+int main() {
+  Programmer myObj;
+  myObj.setSalary(50000);
+  myObj.bonus = 15000;
 
-// derived class (grandchild)
-class MyGrandChild: public MyChild {
-};
-
-int
-main()
-{
-  MyGrandChild myObj;
-  myObj.myFunction();
+  cout << "Salary: " << myObj.getSalary() << "\n";
+  cout << "Bonus: " << myObj.bonus << "\n";
 
   return 0;
 }

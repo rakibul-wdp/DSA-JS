@@ -1,1 +1,2 @@
-Some content in parent class.
+Salary: 50000
+Bonus: 15000
