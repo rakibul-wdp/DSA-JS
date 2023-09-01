@@ -1,2 +1,1 @@
-Tuut, tuut! 
-Ford Mustang
+Some content in parent class.
