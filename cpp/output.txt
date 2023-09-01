@@ -1,2 +1,3 @@
-Salary: 50000
-Bonus: 15000
+The animal makes a sound 
+The pig says: wee wee 
+The dog says: bow wow 

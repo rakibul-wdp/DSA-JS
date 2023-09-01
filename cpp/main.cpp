@@ -26,9 +26,13 @@ class Dog : public Animal {
 };
 
 int main() {
-  
+  Animal myAnimal;
+  Pig myPig;
+  Dog myDog;
 
-  
+  myAnimal.animalSound();
+  myPig.animalSound();
+  myDog.animalSound();
 
   return 0;
 }
