@@ -6,11 +6,13 @@ class Car {
     string brand;
     string model;
     int year;
-      Car(string x, string y, int z) {
-        brand = x;
-        model = y;
-        year = z;
-      }
+    Car(string x, string y, int z);
+};
+
+Car::Car(string x, string y, int z) {
+  brand = x;
+  model = y;
+  year = z;
 };
 
 int main() {
