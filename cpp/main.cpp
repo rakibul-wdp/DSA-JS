@@ -10,9 +10,8 @@ int main() {
     throw 505;
   }
   }
-  catch (int myNum) {
+  catch (...) {
     cout << "Access denied - You must be at least 18 years odl.\n";
-    cout << "Age is: " << myNum;
   }
 
   return 0;
