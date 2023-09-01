@@ -1,22 +1,26 @@
 #include <iostream>
 using namespace std;
 
-class Employee {
-  private:
-    int salary;
+class Vehicle {
   public:
-    void setSalary(int s) {
-      salary = s;
-    }
-    int getSalary() {
-      return salary;
+    string brand = "Ford";
+    void honk() {
+      cout << "Tuut, tuut! \n";
     }
 };
 
-int main() {
-  Employee myObj;
-  myObj.setSalary(5000);
-  cout << myObj.getSalary();
+// Derived class
+class Car: public Vehicle {
+  public:
+    string model = "Mustang";
+};
+
+int
+main()
+{
+  Car myCar;
+  myCar.honk();
+  cout << myCar.brand + " " + myCar.model;
 
   return 0;
 }
