@@ -19,7 +19,23 @@
 #include <stdio.h>
 
 int main() {
-  
+  int a = 15;
+  int b = 5;
+  int c = 10;
+
+  if (a > b) {
+    if (a > c) {
+      printf("a is the largest number");
+    } else {
+      printf("c is the largest number");
+    }
+  } else {
+    if (b > c) {
+      printf("b is the largest number");
+    } else {
+      printf("c is the greatest number");
+    }
+  }
 
   return 0;
 }
