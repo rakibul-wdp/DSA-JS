@@ -1,41 +1,24 @@
-// Algorithm 2: Find the largest number among three numbers
+// Algorithm 3: Find Roots of a Quadratic Equation ax^2+bx+c=0
 /**
  * Step 1: Start
- * Step 2: Declare variables a,b and c.
- * Step 3: Read variables a,b and c.
- * Step 4: If a > b
- *            If a > c
- *               Display a is the largest number.
- *            Else
- *              Display c is the largest number.
+ * Step 2: Declare variables a,b, c, d, x1, x2, rp and ip;
+ * Step 3: Calculate discriminant
+ *          D <- b2-4ac
+ * Step 4: If D >= 0
+ *              r1 <- (-b+root(D))/2a
+ *              r2 <- (-b-root(D))/2a
  *         Else
- *           If b > c
- *              Display b is the largest number.
- *           Else
- *             Display c is the greatest number.
+ *              Calculate real part and imaginary part
+ *              rp <- -b/2a
+ *              ip <- root(-D)/2a
+ *              Display rp+j(ip) and rp-j(ip) as roots
  * Step 5: Stop
-*/
+ */
 
 #include <stdio.h>
 
 int main() {
-  int a = 15;
-  int b = 5;
-  int c = 10;
-
-  if (a > b) {
-    if (a > c) {
-      printf("a is the largest number");
-    } else {
-      printf("c is the largest number");
-    }
-  } else {
-    if (b > c) {
-      printf("b is the largest number");
-    } else {
-      printf("c is the greatest number");
-    }
-  }
+  
 
   return 0;
 }
