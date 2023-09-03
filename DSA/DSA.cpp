@@ -14,35 +14,20 @@ Step 7: Stop
 */
 
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
 int main() {
-  double a, b, c, D, x1, x2, rp, ip;
+  int n, factorial = 1, i = 1;
 
-  cout << "Enter the coefficient a: ";
-  cin >> a;
-  cout << "Enter the coefficient b: ";
-  cin >> b;
-  cout << "Enter the coefficient c: ";
-  cin >> c;
+  cin >> n;
 
-  D = b * b - 4 * a * c;
-
-  if (D >= 0) {
-    x1 = (-b + sqrt(D)) / (2 * a);
-    x2 = (-b - sqrt(D)) / (2 * a);
-    cout << "Real roots:" << endl;
-    cout << "x1 = " << x1 << endl;
-    cout << "x2 = " << x2 << endl;
-  } else {
-    rp = -b / (2 * a);
-    ip = sqrt(-D) / (2 * a);
-    cout << "Complex roots:" << endl;
-    cout << "x1 = " << rp << " + j" << ip << endl;
-    cout << "x2 = " << rp << " - j" << ip << endl;
+  while (i <= n) {
+    factorial *= i;
+    i++;
   }
+
+  cout << "Factorial of " << n << " is " << factorial << endl;
 
   return 0;
 }
