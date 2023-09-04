@@ -18,6 +18,22 @@ Step 6: Stop
 using namespace std;
 
 int main() {
+  int first_term = 0, second_term = 1, temp;
 
-    return 0;
+  cout << "Fibonacci series:" << endl;
+  cout << first_term << " " << second_term << " ";
+
+  while (second_term <= 1000) {
+    temp = second_term;
+
+    second_term += first_term;
+
+    first_term = temp;
+
+    if (second_term <= 1000) {
+      cout << second_term << " ";
+    }
+  }
+
+  return 0;
 }
