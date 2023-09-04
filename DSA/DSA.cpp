@@ -1,21 +1,16 @@
-// Algorithm 5: Check whether a number is prime or not
+// Algorithm 6: Find the Fibonacci series till the term less than 1000
+
 /*
 Step 1: Start
-Step 2: Declare variables n, i, flag.
-Step 3: Initialize variables
-        flag <- 1
-        i <- 2
-Step 4: Read n from the user.
-Step 5: Repeat the steps until i=(n/2)
-     5.1 If remainder of n/i equals 0
-            flag <- 0
-            Go to step 6
-     5.2 i <- i + 1
-Step 6: If flag = 0
-           Display n is not prime
-        else
-           Display n is prime
-Step 7: Stop
+Step 2: Declare variables first_term, send_term and temp.
+Step 3: Initialize variables first_term <- 0 second_term <- 1
+Step 4: Display first_term and second_term
+Step 5: Repeat the steps until send_term <= 1000
+     5.1: tem <- second_term
+     5.2: second_term <- second_term + first_term
+     5.3: first_term <- temp
+     5.4: Display second_term
+Step 6: Stop
 */
 
 #include <iostream>
@@ -23,22 +18,6 @@ Step 7: Stop
 using namespace std;
 
 int main() {
-  int n, i, flag = 1;
-
-  cin >> n;
-
-  for (i = 2; i <= n / 2; i++) {
-    if (n % i == 0) {
-      flag = 0;
-      break;
-    }
-  }
-
-  if (flag == 0) {
-    cout << n << " is not prime" << endl;
-  } else {
-    cout << n << " is prime" << endl;
-  }
 
     return 0;
 }
