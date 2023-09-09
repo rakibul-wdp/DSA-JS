@@ -9,9 +9,20 @@ sum is your answer
 #include <iostream>
 using namespace std;
 
+int findSum() {
+  int sum = 0;
 
+  for (int v = 1; v <= 10000000000; v++) {
+    sum += v;
+  }
+
+  return sum;
+}
 
 int main() {
+  int result = findSum();
+
+  cout << result;
 
   return 0;
 }
