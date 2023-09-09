@@ -1,28 +1,17 @@
+// Algorithm (by Bob)
 /*
-Initialize fact = 1
-For every value v in range 1 to n:
-  Multiple the fact by v
-fact contains the factorial of n
+Initialize sum = 0
+for every natural number n in range 1 to 10^11(inclusive):
+  add n to sum
+sum is your answer
 */
 
 #include <iostream>
 using namespace std;
 
-int factorial(int n) {
-  int fact = 1;
-  for (int v = 1; v <= n; v++) {
-    fact = fact * v;
-  }
 
-  return fact;
-}
 
 int main() {
-  int n;
-
-  cin >> n;
-
-  factorial(n);
 
   return 0;
 }
