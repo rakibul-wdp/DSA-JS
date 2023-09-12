@@ -34,3 +34,14 @@ int isEmpty(st *s) {
   else
     return 0;
 }
+
+// Add elements into stack
+void push(st *s, int newItem) {
+  if (isFull(s)) {
+    cout << "STACK FULL";
+  } else {
+    s->top++;
+    s->items[s->top] = newItem;
+  };
+  size++;
+}
