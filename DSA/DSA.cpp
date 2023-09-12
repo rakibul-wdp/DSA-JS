@@ -45,3 +45,15 @@ void push(st *s, int newItem) {
   };
   size++;
 }
+
+// Remove element from stack
+void pop(st *s) {
+  if (isEmpty(s)) {
+    cout << "\n STACK EMPTY \n";
+  } else {
+    cout << "Item popped= " << s->items[s->top];
+    s->top--;
+  }
+  size--;
+  cout << endl;
+}
