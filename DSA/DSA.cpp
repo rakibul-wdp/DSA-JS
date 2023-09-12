@@ -26,3 +26,11 @@ int isFull(st *s) {
   else
     return 0;
 }
+
+// Check if the stack is empty
+int isEmpty(st *s) {
+  if (s->top == -1) 
+    return 1;
+  else
+    return 0;
+}
