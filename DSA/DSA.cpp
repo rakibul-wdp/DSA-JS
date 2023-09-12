@@ -5,7 +5,7 @@
 
 using namespace std;
 
-#define MAX  10
+#define MAX 10
 int size = 0;
 
 // Creating a stack
@@ -42,7 +42,7 @@ void push(st *s, int newItem) {
   } else {
     s->top++;
     s->items[s->top] = newItem;
-  };
+  }
   size++;
 }
 
@@ -67,3 +67,22 @@ void printStack(st *s) {
   cout << endl;
 }
 
+// Driver code
+int main() {
+  int ch;
+  st *s = (st *)malloc(sizeof(st));
+
+  createEmptyStack(s);
+
+  push(s, 1);
+  push(s, 2);
+  push(s, 3);
+  push(s, 4);
+
+  printStack(s);
+
+  pop(s);
+
+  cout << "\nAfter popping out\n";
+  printStack(s);
+}
