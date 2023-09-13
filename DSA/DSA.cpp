@@ -28,4 +28,16 @@ class Queue {
     else
       return false;
   }
+
+  void enQueue(int element) {
+    if (isFull()) {
+      cout << "Queue is full";
+    } else {
+      if (front == -1) front = 0;
+      rear++;
+      items[rear] = element;
+      cout << endl
+           << "Inserted " << element << endl;
+    }
+  }
 }
