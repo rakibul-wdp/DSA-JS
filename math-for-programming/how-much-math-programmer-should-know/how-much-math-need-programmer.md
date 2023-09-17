@@ -12,6 +12,7 @@
   - But you mush "understand" the concepts properly
 
 - Long answer: It depends on what you are going to do in future!
+
   - Game development
     - 3D games and 3D graphics
     - Trigonometry, Linear Algebra, Matrices
@@ -20,3 +21,5 @@
   - Machine Learning
     - Linear algebra, Calculus
     - Probability, Statistics
+
+- How about libraries and black-boxes?
