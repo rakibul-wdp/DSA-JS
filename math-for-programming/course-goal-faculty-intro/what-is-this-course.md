@@ -6,3 +6,7 @@
   - Computer can understand programs
   - Writing programs requires some logic and reasoning
   - Good background in basic math will help
+- How?
+  - Concept
+  - Examples
+  - Practice, practice and practice!
