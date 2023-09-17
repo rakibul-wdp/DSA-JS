@@ -42,3 +42,16 @@
 - 3 / 2 = 1; remainder = 1
 - 1 / 2 = 0; remainder = 1 (MSB: goes to the left)
 - 1101 (Binary)
+
+- 540
+- 540 / 2 = 270; remainder = 0 (LSB: goes to the right)
+- 270 / 2 = 135; remainder = 0
+- 135 / 2 = 67; remainder = 1
+- 67 / 2 = 33; remainder = 1
+- 33 / 2 = 16; remainder = 1
+- 16 / 2 = 8; remainder = 0
+- 8 / 2 = 4; remainder = 0
+- 4 / 2 = 2; remainder = 0
+- 2 / 2 = 1; remainder = 0
+- 1 / 2 = 0; remainder = 1 (MSB: goes to the left)
+- 1000011100 (Binary)
