@@ -32,3 +32,13 @@
 - 1 x 2^8 + 1 x 2^6 + 1 x 2^5 + 1 x 2^3 + 1 x 2^1 + 1 x 2^0
 - 256 + 64 + 32 + 8 + 2 + 1
 - 363
+
+# Convert decimal to Binary
+
+- Decimal value 13 -> binary?
+- 13
+- 13 / 2 = 6; remainder = 1 (LSB: goes to the right)
+- 6 / 2 = 3; remainder = 0
+- 3 / 2 = 1; remainder = 1
+- 1 / 2 = 0; remainder = 1 (MSB: goes to the left)
+- 1101 (Binary)
