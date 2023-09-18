@@ -6,3 +6,8 @@
   - Process data
   - Produce output/result
   - Store result
+- Usage:
+  - Writing documents
+  - Browse the internet
+  - Send emails
+  - Play games
