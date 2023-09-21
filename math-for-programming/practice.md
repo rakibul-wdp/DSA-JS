@@ -16,6 +16,14 @@
 - 1001001
 
 - Is 77 a prime number?
+- No
+
 - What about 169? Prime or composite?
+- composite
+
 - Find out the 12th prime number.
+- 37
+
 - Find out sum of first n odd numbers. Try n = 1, 2, 3, ...
+- 1, 3, 6, 10, 15, 21, ...
+- so, each time increase 1...
