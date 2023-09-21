@@ -96,3 +96,7 @@
   - Divide 237 with 10 and get the quotient
   - Floor(237 / 10) = 23
 - Repeat the same process with 23
+- Find the i-th digit of a number (Say n = 91408) from right. [i = 0, 1, 2, 3, 4]
+- i = 0 -> n % 10 = 8
+- i = 1 > Floor(n/10)%10 = 0
+- General Formula: Floor (n/10^i) % 10 = |n/10^i| % 10
