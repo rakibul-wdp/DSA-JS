@@ -22,3 +22,10 @@
   - Example: 3, 11, 73, etc
 - What about if it is not a prime number? How do you count divisors?
   - Example: 8, 15, 27, etc
+
+### Divisor counting - Naive
+
+- Take all the integers (1 to n) and test if remainder is 0.
+  - Example: Let's take 12
+  - The divisors: 1, 2, 3, 4, 6, 12
+  - Number of divisors: 6
