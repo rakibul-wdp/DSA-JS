@@ -10,3 +10,13 @@
   - If remainder is 0, even! Otherwise odd!
 - Dividing by 2 sounds binary, right?
   - Convert the numbers to binary and see if you can find a pattern for event and odd numbers there.
+
+### Summary
+
+- We are more comfortable with the number systems
+  - Especially binary number!
+- Learned the types of numbers and how they are related
+- Reviewed the division process and terminologies.
+- divisibility check and its use.
+- Prime numbers and how to detect them when you see one!
+- Even odd numbers, with a brain teaser!
