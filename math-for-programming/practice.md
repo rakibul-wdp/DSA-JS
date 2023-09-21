@@ -32,3 +32,13 @@
 
 - Question 01: Choose a prime number from the range of 50 to 100. We will call it P. Write in Details.
 - So, within the range of 50 to 100, the prime number I have chosen is 53. It meets the criteria of being greater than 1 and only divisible by 1 and itself, which are the defining characteristics of prime numbers.
+
+- Question 02: Find the binary representation of P. You must show the process.
+- D is the decimal number.
+- Initialize B as an empty string.
+- While D is greater than 0:
+- Q = D / 2
+- R = D % 2
+- Append R to the beginning of B
+- Set D to Q
+- B now contains the binary representation of the original decimal number.
