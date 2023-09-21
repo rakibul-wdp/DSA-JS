@@ -100,3 +100,12 @@
 - i = 0 -> n % 10 = 8
 - i = 1 > Floor(n/10)%10 = 0
 - General Formula: Floor (n/10^i) % 10 = |n/10^i| % 10
+
+### Summary
+
+- Floor vs Ceiling
+- Counting number of divisors
+- Improving our method
+- Prime number check
+- Sieve of Eratosthenes
+- Digit extraction
