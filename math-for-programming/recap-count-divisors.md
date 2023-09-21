@@ -37,3 +37,16 @@
 - But ... look at the second half!
 - We only need to check for 2 to n/2
 - What about odd n?
+
+### Divisor counting - Even Better
+
+- Could you stop earlier than 6?
+- Yes!
+- 12%2 = 0 means 12/2 = 6 also divides 12
+- Same goes for 3 and 4
+- So, we could stop at 3 and still identify all the divisors!
+- Then where do I stop?
+- For 12, we stopped at 3.
+- Let's look at 16
+- So, we don't need to test any number greater than root n
+- root 12 = 3.464 ..., root 16 = 4
