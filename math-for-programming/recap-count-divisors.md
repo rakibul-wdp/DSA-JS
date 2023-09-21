@@ -29,3 +29,11 @@
   - Example: Let's take 12
   - The divisors: 1, 2, 3, 4, 6, 12
   - Number of divisors: 6
+
+### Divisor counting - Better
+
+- We already know 1 and n will be there?
+- So, 2 to (n - 1) need to be tested.
+- But ... look at the second half!
+- We only need to check for 2 to n/2
+- What about odd n?
