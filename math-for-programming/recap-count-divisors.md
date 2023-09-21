@@ -70,3 +70,12 @@
 - 77 % 2 = 1, 77 % 3 = 2, 77 % 4 = 1, 77 % 5 = 2
 - Can we get a better method?
   - Yes, Let's talk about Sieve of Eratosthenes
+
+### Sieve of Eratosthenes
+
+- Identifies all the prime numbers in a given range (very fast)
+- Idea:
+  - Step 1: Take a number (start with 2) and find its multiples in the range
+  - Step 2: Those multiples must be composite, cross them out
+  - Step 3: Proceed to the next number
+  - Step 4: If it's prime, go to step 1, otherwise step 3
