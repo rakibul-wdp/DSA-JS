@@ -79,3 +79,20 @@
   - Step 2: Those multiples must be composite, cross them out
   - Step 3: Proceed to the next number
   - Step 4: If it's prime, go to step 1, otherwise step 3
+
+### Extract digits from an integer
+
+- You can tell the digits just by looking at the number
+- Then why do we solve this problem?
+  - If you store a number and want to get a certain digit, you need to get it yourself!
+  - Formulate a set of operations on the number that can return individual digits
+- Division is all you need!
+- Let's go through an example with n = 237
+  - How do you get the last digit?
+  - 237 % 10 = 7
+- So, we know the rightmost digit is 7
+- After knowing this, we do not have anything to do with 7 anymore
+- Now we can focus on 23. But how do you get 23 separated?
+  - Divide 237 with 10 and get the quotient
+  - Floor(237 / 10) = 23
+- Repeat the same process with 23
