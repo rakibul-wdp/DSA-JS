@@ -89,3 +89,39 @@ Step 8: Continue this process until you have checked all numbers up to the squar
 Step 9: After completing the process, if the number you are checking (in this case, 19) is still unmarked, it is a prime number. In our table, 19 is unmarked, so it is a prime number.
 
 So, using the Sieve of Eratosthenes, we have determined that 19 is a prime number.
+
+- Question 06: Take two natural numbers X and Y. If X \* Y = Z, is Z even or odd when X and Y-
+  - (Case 1) both are even: even / odd
+  - (Case 2) both are odd: even / odd
+  - (Case 3) One of them is odd, the other one is even: even / odd
+  - Note: (Answer in even or odd) Write in Details
+- The parity (even or odd) of the product Z, when two natural numbers X and Y are multiplied, depends on their individual parities. Let's analyze each case:
+
+**Case 1: Both X and Y are even.**
+
+- When both X and Y are even, they can be expressed as X = 2A and Y = 2B, where A and B are natural numbers.
+- The product Z = X _ Y = (2A) _ (2B) = 4AB.
+- Z is divisible by 4, which means Z is even.
+- Therefore, in Case 1, the product Z is even.
+
+**Case 2: Both X and Y are odd.**
+
+- When both X and Y are odd, they can be expressed as X = 2A + 1 and Y = 2B + 1, where A and B are natural numbers.
+- The product Z = X _ Y = (2A + 1) _ (2B + 1) = 4AB + 2A + 2B + 1.
+- Z is of the form 4AB + 2(A + B) + 1, where 4AB and 2(A + B) are even numbers, and when you add an odd number (1), you get an odd number.
+- Therefore, in Case 2, the product Z is odd.
+
+**Case 3: One of them is odd, the other one is even.**
+
+- Without loss of generality, let's assume that X is even (X = 2A) and Y is odd (Y = 2B + 1).
+- The product Z = X _ Y = (2A) _ (2B + 1) = 4AB + 2A.
+- Z is of the form 4AB + 2A, where both terms are even because they have a common factor of 2.
+- Therefore, in Case 3, the product Z is even.
+
+In summary:
+
+- In Case 1 (both even), Z is even.
+- In Case 2 (both odd), Z is odd.
+- In Case 3 (one even and one odd), Z is even.
+
+So, the parity of Z depends on the parities of X and Y as described above.
