@@ -50,3 +50,42 @@
 - Question 04: Ternary numbers are formed with a number system with base 3. Given the ternary number 10212, find its decimal value. Write in Details
 - To find the decimal value of the ternary number 10212, you'll need to convert it from base 3 to base 10. To do this, you can use the positional notation system, just like you would for converting from binary to decimal.
 - So, the decimal value of the ternary number 10212 is 104.
+
+- Question 05: Build a sieve of Eratosthenes to determine if 19 is a prime number. Show the state of the table at each step.
+- The Sieve of Eratosthenes is a method for finding all prime numbers up to a given limit. To determine if 19 is a prime number using this method, you can create a table and follow these steps while marking multiples of prime numbers:
+
+Step 1: Create a table with all numbers from 2 to the number you want to check (in this case, up to 19).
+
+```
+Table: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+```
+
+Step 2: Start with the first number in the table, which is 2. 2 is a prime number, so we keep it.
+
+Step 3: Mark all multiples of 2 as composite. Starting from 4, every second number is a multiple of 2.
+
+```
+Table: 2 3 X 5 X 7 X 9 X 11 X 13 X 15 X 17 X 19
+```
+
+Step 4: Move to the next unmarked number, which is 3. 3 is a prime number, so we keep it.
+
+Step 5: Mark all multiples of 3 as composite. Starting from 6, every third number is a multiple of 3.
+
+```
+Table: 2 3 X 5 X 7 X X X 11 X 13 X X 17 X 19
+```
+
+Step 6: Continue this process, moving to the next unmarked number (5), which is also a prime number.
+
+Step 7: Mark all multiples of 5 as composite.
+
+```
+Table: 2 3 X 5 X 7 X X X 11 X 13 X X 17 X X
+```
+
+Step 8: Continue this process until you have checked all numbers up to the square root of 19. In this case, the square root of 19 is approximately 4.36, so you only need to check up to 4.
+
+Step 9: After completing the process, if the number you are checking (in this case, 19) is still unmarked, it is a prime number. In our table, 19 is unmarked, so it is a prime number.
+
+So, using the Sieve of Eratosthenes, we have determined that 19 is a prime number.
