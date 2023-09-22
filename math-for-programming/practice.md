@@ -46,3 +46,7 @@
 - Question 03: You and your friends in class might be choosing different values for P. Can anybody choose a P that is an odd number? Explain your answer.
 - In mathematics, odd numbers are integers that cannot be divided by 2 without leaving a remainder. They are expressed as 2n + 1, where "n" is an integer. Even numbers, on the other hand, are integers that can be divided by 2 without a remainder and are expressed as 2n, where "n" is an integer.
   So, anybody can choose "P" to be an odd number, and there's no inherent mathematical restriction against it.
+
+- Question 04: Ternary numbers are formed with a number system with base 3. Given the ternary number 10212, find its decimal value. Write in Details
+- To find the decimal value of the ternary number 10212, you'll need to convert it from base 3 to base 10. To do this, you can use the positional notation system, just like you would for converting from binary to decimal.
+- So, the decimal value of the ternary number 10212 is 104.
