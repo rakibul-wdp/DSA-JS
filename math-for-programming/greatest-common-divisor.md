@@ -19,3 +19,13 @@
   - GCD: 3
 - Co-prime: if gcd(a, b) = 1, a and b are co-prime.
   - Example: 8 and 15
+
+# GCD - How to calculate?
+
+- Simple way to find gcd(a, b)
+  - Take i to be 1 to minimum (a, b)
+    - Check if i divides both a and b
+    - Largest such i is the gcd
+  - Just like the naive method we learned for finding divisors
+    - Too many unnecessary calculations
+- Let's learn a clever way - The Euclidean Algorithm
