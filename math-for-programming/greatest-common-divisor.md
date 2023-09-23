@@ -29,3 +29,12 @@
   - Just like the naive method we learned for finding divisors
     - Too many unnecessary calculations
 - Let's learn a clever way - The Euclidean Algorithm
+
+# GCD - The euclidean algorithm
+
+- gcd(a, b) = gcd(b, a%b)
+- gcd(p, 0) = gcd(0, p) = p
+- Example: gdc(15, 6) = gcd(6, 3) = gcd(3, 0) = 3
+- Changing order does no matter
+  - gcd(6, 15) = gcd(15, 6) = ...
+- gcd(15, 8) = gcd(8, 7) = gcd(7, 1) = gcd(1, 0) = 1 -> Co - prime
