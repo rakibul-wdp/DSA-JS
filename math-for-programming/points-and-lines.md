@@ -6,3 +6,10 @@
 - Matrix and an application of them
 - Power and roots
 - Sets and set operations
+
+# Basic Geometry
+
+- Points and lines
+- Coordinate System
+- Angles
+- Some geometric shapes
