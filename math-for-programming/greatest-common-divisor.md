@@ -49,3 +49,12 @@
   - Multiples of 6: 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, ...
   - Common multiples: 30, 60, ...
   - LCM: 30
+
+# LCM - How to calculate?
+
+- Simple way to find lcm (a, b)
+  - Take multiples of the larger number and see if the smaller one divides it
+  - Computation heavy
+- Or you may find it using gcd:
+  - gcd(a, b) x lcm(a, b) = a X b
+  - Example: lcm(15, 6) = (15x6)/3 = 30
