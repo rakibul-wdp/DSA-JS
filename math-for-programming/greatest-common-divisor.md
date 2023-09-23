@@ -38,3 +38,14 @@
 - Changing order does no matter
   - gcd(6, 15) = gcd(15, 6) = ...
 - gcd(15, 8) = gcd(8, 7) = gcd(7, 1) = gcd(1, 0) = 1 -> Co - prime
+
+# LCM - Least common multiple
+
+- Multiple
+- Common multiple
+- Least common multiple
+- Example: Find the lcm of 15 6
+  - Multiples of 15: 15, 30, 45, 60, ...
+  - Multiples of 6: 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, ...
+  - Common multiples: 30, 60, ...
+  - LCM: 30
