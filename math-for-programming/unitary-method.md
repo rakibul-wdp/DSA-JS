@@ -33,6 +33,17 @@
 
   - You gave a test on 40 marks. Your score was 32.
   - What would be the score if the test was taken with 100 marks?
+  - May use unitary method
+  - Out of 40 your score = 32
+  - Out of 1 your score = 32/40
+  - Out of 100 your score = (32/40) x 100 = 80
+  - This is per hundred quantity, therefore, percentage!
+  - You got 80% marks (see how we avoid mentioning the total marks!)
+
+- You may just multiply the ratio with 100% (= 100 x 1/100 = 1)
+
+  - (32/40) x 100% = 80%
+
   - answer 80 marks.
 
 - 20 -> 16
