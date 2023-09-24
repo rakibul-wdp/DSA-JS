@@ -50,3 +50,10 @@
 - 40 -> 32
 - 80 -> 64
 - 100 -> 80
+
+# Percentage Problem
+
+- A clothing store is selling one of their most popular products at 870 Tk after 40% discount. What was the original price?
+- 40% -> 870
+- 10% -> 217.5
+- 100% -> 2175 (original price)
