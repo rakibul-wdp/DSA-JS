@@ -12,3 +12,17 @@
   - 2! = 2 -> divide it by 2 -> 1
   - 1! = 1 -> divide it by 1 -> stays 1
   - 0! = 1
+
+# Factorial - why?
+
+- Consider a cricket team with 11 players
+- How many batting orders are possible?
+- What if we had 2 players?
+  - Answer: 2
+  - AB or BA
+- What about 3 players?
+  - Answer: 6
+  - ABC, ACB, BAC, BCA, CAB, CBA
+- These type of problems are part of "Combinatorics"
+  - A branch of mathematics
+  - Deals with permutation and combination
