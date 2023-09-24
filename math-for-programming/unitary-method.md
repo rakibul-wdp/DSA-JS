@@ -24,3 +24,18 @@
   - Jerry's 1 hour of work === 1/10 homework
 - Tom and Jerry's 1 hour of work combined === (1/15 + 1/10) homework = 1/6 homework
 - Answer: 6 hours
+
+# Percentage
+
+- Per hundred quantity
+- Scaling reference to 100
+- Example:
+
+  - You gave a test on 40 marks. Your score was 32.
+  - What would be the score if the test was taken with 100 marks?
+  - answer 80 marks.
+
+- 20 -> 16
+- 40 -> 32
+- 80 -> 64
+- 100 -> 80
