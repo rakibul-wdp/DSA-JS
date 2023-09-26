@@ -12,7 +12,11 @@ int main() {
     }
   }
 
-  printf("n = %d, count = %d\n", n, count);
+  for (i = 0; i < n; i++) {
+    count = count + 1;
+  }
+
+    printf("count = %d\n", count);
 
   return 0;
 }
