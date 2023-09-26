@@ -6,3 +6,6 @@
 - Example
   - Natural number set: {1, 2, 3, ...}
   - Name of your favorite sports: {football, badminton, volleyball}
+- Subset:
+  - A is a subset of B if all the elements of A is also in B
+  - A = {10, 12, 29} and B = {101, 12, 10 , 29, 32}
