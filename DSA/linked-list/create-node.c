@@ -25,6 +25,30 @@ Node *create_node(int item, Node *next) {
   return new_node;
 }
 
+Node *remove_node(Node *head, Node *node) {
+  if (node == head) {
+    head = node->next;
+    free(node);
+    return head;
+  }
+
+  Node *current_node = head;
+  while (current_node != NULL) {
+    if (current_node->next == node) {
+      break;
+    }
+    current_node = current_node->next;
+  }
+
+  if (current_node == NULL) {
+    return head;
+  }
+
+  current_node->next = node->next;
+  free(node);
+  return head;
+}
+
 int main() {
   Node *n;
   n = create_node(10, NULL);
