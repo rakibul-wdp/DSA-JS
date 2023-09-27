@@ -21,3 +21,11 @@ Node *create_node(int item) {
 
   return new_node;
 }
+
+void add_left_child(Node *node, Node *child) {
+  node->left = child;
+}
+
+void add_right_child(Node *node, Node *child) {
+  node->right = child;
+}
