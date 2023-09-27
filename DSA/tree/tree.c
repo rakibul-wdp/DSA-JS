@@ -29,3 +29,18 @@ void add_left_child(Node *node, Node *child) {
 void add_right_child(Node *node, Node *child) {
   node->right = child;
 }
+
+Node *create_tree() {
+  Node *two = create_node(2);
+  Node *seven = create_node(7);
+  Node *nine = create_node(9);
+  add_left_child(two, seven);
+  add_right_child(two, nine);
+
+  Node *one = create_node(1);
+  Node *six = create_node(6);
+  add_left_child(seven, one);
+  add_right_child(seven, six);
+
+  return two;
+}
