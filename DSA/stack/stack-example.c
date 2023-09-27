@@ -27,3 +27,20 @@ int pop(Stack *s) {
 
   return item;
 }
+
+int main() {
+  Stack my_stack;
+  int item;
+
+  my_stack.top = 0;
+
+  push(&my_stack, 1);
+  push(&my_stack, 2);
+  push(&my_stack, 3);
+
+  item = pop(&my_stack);
+  printf("%d\n", item);
+
+  item = pop(&my_stack);
+  printf("%d\n", item);
+}
