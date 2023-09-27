@@ -76,6 +76,15 @@ void insert(Node *node, int item) {
   node->next = new_node;
 }
 
+void print_linked_list(Node *head) {
+  Node *current_node = head;
+  while (current_node != NULL) {
+    printf("%d  ", current_node->data);
+    current_node = current_node->next;
+  }
+  printf("\n");
+}
+
 int main() {
   Node *n;
   n = create_node(10, NULL);
