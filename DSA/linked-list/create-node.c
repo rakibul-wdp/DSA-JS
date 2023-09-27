@@ -71,6 +71,11 @@ Node *append(Node *head, int item) {
   return head;
 }
 
+void insert(Node *node, int item) {
+  Node *new_node = create_node(item, node->next);
+  node->next = new_node;
+}
+
 int main() {
   Node *n;
   n = create_node(10, NULL);
