@@ -14,3 +14,5 @@
   - Example:
     - When talking about numbers, universal set might be the set of Real Numbers
     - In case of set of favorite sports, universal set would be the set of all sports
+- Empty/Null set:
+  - Set with zero members: {} or theta
