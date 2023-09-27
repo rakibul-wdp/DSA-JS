@@ -49,6 +49,11 @@ Node *remove_node(Node *head, Node *node) {
   return head;
 }
 
+Node *prepend(Node *head, int item) {
+  Node *new_node = create_node(item, head);
+  return new_node;
+}
+
 int main() {
   Node *n;
   n = create_node(10, NULL);
