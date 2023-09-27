@@ -13,3 +13,17 @@ void push(Stack *s, int item) {
     printf("Stack is full!\n");
   }
 }
+
+int pop(Stack *s) {
+  int item;
+
+  if (s->top == 0) {
+    printf("Stack is empty!\n");
+    return -1;
+  } else {
+    s->top = s->top - 1;
+    item = s->data[s->top];
+  }
+
+  return item;
+}
