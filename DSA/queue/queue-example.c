@@ -28,3 +28,22 @@ int dequeue(Queue *q) {
 
   return item;
 }
+
+int main() {
+  Queue my_q;
+  int item;
+
+  my_q.head = 0;
+  my_q.tail = 0;
+
+  enqueue(&my_q, 1);
+  printf("tail = %d\n", my_q.tail);
+  enqueue(&my_q, 2);
+  printf("tail = %d\n", my_q.tail);
+
+  printf("beginning head = %d\n", my_q.head);
+  item = dequeue(&my_q);
+  printf("item = %d, head = %d\n", item, my_q.head);
+  item = dequeue(&my_q);
+  printf("item = %d, head = %d\n", item, my_q.head);
+}
