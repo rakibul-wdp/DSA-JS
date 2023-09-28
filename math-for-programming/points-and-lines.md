@@ -13,3 +13,9 @@
 - Coordinate System
 - Angles
 - Some geometric shapes
+
+# Point
+
+- Just a dot
+- Location only
+- No length, width, shape, size
