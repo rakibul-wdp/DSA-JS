@@ -19,3 +19,16 @@
 - Just a dot
 - Location only
 - No length, width, shape, size
+
+# Line
+
+- Two different points
+- Connect them
+- Take the straight path
+  - Also the shortest
+- This is called line segment
+  - Finite length
+- Line: extended in both ends
+  - Infinite length
+- Ray: extended in one end
+  - Infinite length
