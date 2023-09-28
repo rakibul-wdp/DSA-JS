@@ -32,3 +32,12 @@
   - Infinite length
 - Ray: extended in one end
   - Infinite length
+
+# Angle
+
+- Between two rays extending from the same point
+- Circular arc to annotate
+- Full rotation = 360 degrees
+- Acute Angle (<90deg)
+- Right Angle (=90deg)
+- Obtuse Angle (>90deg)
