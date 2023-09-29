@@ -58,5 +58,11 @@
   - Vertical: Y axis
 - Intersection point: Origin (0, 0)
 - Any point can be identified as a pair of numbers
+
   - (x, y)
   - Where is (-2, 5)?
+
+- How about 3D coordinate system?
+  - (x, y, z)
+  - Hard to visualize on paper
+  - But easier in real life
