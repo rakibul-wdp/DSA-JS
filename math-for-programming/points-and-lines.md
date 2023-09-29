@@ -41,3 +41,11 @@
 - Acute Angle (<90deg)
 - Right Angle (=90deg)
 - Obtuse Angle (>90deg)
+
+# Coordinate System
+
+- How do you navigate in real life?
+  - Reference point, directions, distance etc
+- How to identify a point in space?
+  - Coordinate System!
+  - Remember number line? One-dimensional coordinate system.
