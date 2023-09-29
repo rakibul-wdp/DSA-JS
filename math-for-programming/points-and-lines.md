@@ -47,5 +47,16 @@
 - How do you navigate in real life?
   - Reference point, directions, distance etc
 - How to identify a point in space?
+
   - Coordinate System!
   - Remember number line? One-dimensional coordinate system.
+
+- 2D coordinate system
+- Take two perpendicular lines
+  - Right angle / 90 degrees
+  - Horizontal: X axis
+  - Vertical: Y axis
+- Intersection point: Origin (0, 0)
+- Any point can be identified as a pair of numbers
+  - (x, y)
+  - Where is (-2, 5)?
