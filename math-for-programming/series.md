@@ -36,3 +36,17 @@
   - 100th number = 2 + 99 x 3 = 299
 - Sum of first n terms: n/2 {2a + (n - 1) x d}
 - sum of first 100 numbers = 100/2 {2x2 + (100 - 1) x 3} = 15050
+
+# Summary
+
+- Basic Geometry
+  - Points
+  - Lines
+  - Rectangle
+  - Square
+  - Circle
+- Coordinate system
+  - 2D and 3D
+  - Distance between points
+- Sequence and Series
+- Finding sum of series
