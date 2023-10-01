@@ -25,3 +25,14 @@
 - 1 + 2 + 3 + ... + N = ?
 - Let,
   - s = N x (N + 1) / 2
+
+# Series (Finite Sum)
+
+- Arithmetic series
+  - S = 2 + 5 + 8 + ...
+  - Find the 100th number in this series.
+  - Find the sum of first 100 numbers.
+- nth term in arithmetic series: a + (n - 1) x d
+  - 100th number = 2 + 99 x 3 = 299
+- Sum of first n terms: n/2 {2a + (n - 1) x d}
+- sum of first 100 numbers = 100/2 {2x2 + (100 - 1) x 3} = 15050
