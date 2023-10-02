@@ -54,7 +54,12 @@
 # Practice
 
 - Find the straight line (shortest) distance between two points in a 3-dimensional space.
+
   - Points: A(-10, 23, 5) & B (31, -11, 76)
+
 - Find the area of the green region if the side length of the square is 10
+- white circle 78.54
+- green circle 157.0796
+- So green region area is 78.5396
 
 - Find the sum of first n odd numbers. Calculate for n = 10,100,1000
