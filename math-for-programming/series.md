@@ -50,3 +50,11 @@
   - Distance between points
 - Sequence and Series
 - Finding sum of series
+
+# Practice
+
+- Find the straight line (shortest) distance between two points in a 3-dimensional space.
+  - Points: A(-10, 23, 5) & B (31, -11, 76)
+- Find the area of the green region if the side length of the square is 10
+
+- Find the sum of first n odd numbers. Calculate for n = 10,100,1000
