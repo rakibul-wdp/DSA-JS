@@ -63,3 +63,12 @@
 - So green region area is 78.5396
 
 - Find the sum of first n odd numbers. Calculate for n = 10,100,1000
+- To find the sum of the first n odd numbers, you can use the formula:
+- Sum = n^2
+- For n = 10:
+- Sum = 10^2 = 100
+- For n = 100:
+- Sum = 100^2 = 10,000
+- For n = 1000:
+- Sum = 1000^2 = 1,000,000
+- So, the sum of the first 10 odd numbers is 100, the sum of the first 100 odd numbers is 10,000, and the sum of the first 1000 odd numbers is 1,000,000.
