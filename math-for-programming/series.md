@@ -57,6 +57,26 @@
 
   - Points: A(-10, 23, 5) & B (31, -11, 76)
 
+- To find the shortest distance between two points A and B in 3-dimensional space, you can use the Euclidean distance formula:
+
+- Distance = √[(x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2]
+
+- In this case, point A has coordinates (-10, 23, 5), and point B has coordinates (31, -11, 76).
+
+- So, plug these values into the formula:
+
+- Distance = √[(31 - (-10))^2 + (-11 - 23)^2 + (76 - 5)^2]
+
+- Distance = √[(41)^2 + (-34)^2 + (71)^2]
+
+- Distance = √[1681 + 1156 + 5041]
+
+- Distance = √(7882)
+
+- Distance ≈ 88.75 (rounded to two decimal places)
+
+- So, the shortest distance between points A(-10, 23, 5) and B(31, -11, 76) in 3-dimensional space is approximately 88.75 units.
+
 - Find the area of the green region if the side length of the square is 10
 - white circle 78.54
 - green circle 157.0796
