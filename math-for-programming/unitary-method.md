@@ -61,3 +61,14 @@
 - 40% -> 870
 - 10% -> 217.5
 - 100% -> 2175 (original price)
+
+- The price of oil increased by 25% and then decreased by 15%. What is the net percentage of increase or decrease in oil price?
+- We don't know the initial value
+- Let's assume the initial price was 100
+- Increase by 25%: Updated price = 125
+- Decrease by 15%:
+  - Price gets reduced to 85%
+  - Updated price = 125 x 85% = 125 x 85/100 = 106.25
+- Final price is more than 100
+- Net increase (106.25 - 100) = 6.25 if the original price was 100 (per hundred)
+- Answer: Increased by 6.25%
