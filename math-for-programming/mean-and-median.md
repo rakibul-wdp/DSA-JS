@@ -15,6 +15,7 @@
 - (103 + 210 + 57 + 85 + 500 + 180) / 6 = 189.167
 
 - Median
+
   - Given some numbers
   - Sort them in ascending order
   - Take the number found at the middle
@@ -23,3 +24,15 @@
   - If count is even
     - There are two elements in the middle
     - Take average of those two
+
+- What does it mean to take the middle number?
+- Say your median value is X
+- Then ~50% of the values are less than X
+- And ~50%of the values are greater than X
+- 8, 7, 3, 2, 10
+- Sort: 2, 3, 7, 8, 10
+- Median: 7
+
+- 8, 7, 3, 2, 0, 1
+- Sort: 1, 2, 3, 7, 8, 10
+- Median: (3+7)/2 = 5
