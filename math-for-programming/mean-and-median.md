@@ -13,3 +13,13 @@
   - Money collected from 6 friends 103, 210, 57, 85, 500, 180
 - Answer: Everyone has a budget of at most the average amount.
 - (103 + 210 + 57 + 85 + 500 + 180) / 6 = 189.167
+
+- Median
+  - Given some numbers
+  - Sort them in ascending order
+  - Take the number found at the middle
+  - If count is odd
+    - Middle one is unique
+  - If count is even
+    - There are two elements in the middle
+    - Take average of those two
