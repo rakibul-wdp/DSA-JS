@@ -36,3 +36,18 @@
 - 8, 7, 3, 2, 0, 1
 - Sort: 1, 2, 3, 7, 8, 10
 - Median: (3+7)/2 = 5
+
+- Why median?
+- Because sometimes mean can be misleading
+- Example:
+- You try to walk everyday around 4km. Here is the history of ten days of your walking:
+  - 3.5km, 7km, 5km, 4km, 4.5km, 24km, 5km, 5.5km, 5km, 6.5km
+  - Mean 7km
+  - Leave out the outlier 24km and mean would be: 5.11km
+  - Let's look at the median
+    - 3.5, 4, 4.5, 5, 5, 5.5, 6.5, 7, 24 (sorted)
+    - Median: (5+5)/2 = 5
+  - Even if we leave out 24
+    - 3.5 ,4 ,4.5 , 5, 5, 5.5, 6.5, 7
+    - Median = 5
+- Takeaway: Median cannot be deviated as much as mean by some outliers
