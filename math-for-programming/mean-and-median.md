@@ -51,3 +51,10 @@
     - 3.5 ,4 ,4.5 , 5, 5, 5.5, 6.5, 7
     - Median = 5
 - Takeaway: Median cannot be deviated as much as mean by some outliers
+
+# Summary
+
+- Unitary method and percentage
+  - Solving problems
+- Interest rate and related problems
+- Mean and Median
