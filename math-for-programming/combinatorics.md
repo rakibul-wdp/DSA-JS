@@ -36,3 +36,9 @@
 - Generalize the formula
 - Number of permutation: nx(n - 1)x(n - 2)x...x(n - 4 + 1)
 - nx(n-1)x(n-2)x...x(n-4+1)x(n-r)x...x1/(n-r)x...x1 => n!/(n-r)!
+
+- Batting order of a 11 player cricket match from a squad of 15 players?
+- r = 11, n = 15
+- nPr = n! / (n-r)!
+- nPr = 11! / (15-11)!
+- nPr = 1663200
