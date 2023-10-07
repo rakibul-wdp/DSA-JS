@@ -65,3 +65,7 @@
 - Number of permutation: nPr = nx(n - 1)x(n - 2)x...x(n - 4 + 1)
 - Each r! corresponds to the same choice
 - nCr = nPr/r! = n!/r!(n-r)!
+
+- Batting order of a 11 player cricket match from a squad of 15 players?
+- 15!/11!(4!)
+- 1365
