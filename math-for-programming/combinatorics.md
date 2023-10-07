@@ -49,6 +49,7 @@
 - You have r slots to put them (r <= n) [order does not matter]
 - Choosing objects instead of arranging them
 - Example
+
   - Choosing 11 players from a squad of 15 players
   - Answering combinations in an exam to answer 4 out of 6 questions
   - We already know how many ways are there if the order is considered too (nPr = 6P4)
@@ -57,3 +58,10 @@
     - 4!
     - All of them should be count as one combination
     - So, we can just divide the permutations by 4!
+
+- You have n objects in hand (all different)
+- You have r slots to put them (r <= n) [order does not matter]
+- Generalize the formula
+- Number of permutation: nPr = nx(n - 1)x(n - 2)x...x(n - 4 + 1)
+- Each r! corresponds to the same choice
+- nCr = nPr/r! = n!/r!(n-r)!
