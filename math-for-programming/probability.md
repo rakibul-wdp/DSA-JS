@@ -10,3 +10,8 @@
   - Certain event: 1
   - Everything in between
 - P(event) = Number of ways it can happen / Number of all possible outcomes
+
+- What is the probability of getting a prime number if you throw a 6-faced dice?
+- All possible outcomes: 1, 2, 3, 4, 5, 6
+- Target outcomes / prime numbers: 2, 3, 5
+- P = 3/6 = 0.5
