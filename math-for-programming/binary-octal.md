@@ -10,3 +10,11 @@
   - 010 111 011 => 273
 - Octal 314 to binary?
   - 314 => 011 001 100
+
+# Summary
+
+- Combinatorial problems
+  - Choice / Combination / nCr
+  - Arrangement / Permutation / nPr
+- Probability
+- Number system revisited
