@@ -18,3 +18,15 @@
   - Arrangement / Permutation / nPr
 - Probability
 - Number system revisited
+
+# Practice Day
+
+- Convert this binary number to hexadecimal number
+  - 01110100111011
+- Binary: 0111 0100 1110 11
+- Now, convert each group into hexadecimal:
+- 0111 = 7 in hexadecimal
+- 0100 = 4 in hexadecimal
+- 1110 = E in hexadecimal
+- 11 = 3 in hexadecimal
+- So, the hexadecimal representation of the binary number 01110100111011 is 74E3.
