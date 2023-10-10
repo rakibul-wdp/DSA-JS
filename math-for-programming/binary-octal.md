@@ -78,3 +78,16 @@
 - P(H and value less than 3) = P(H) _ P(value less than 3) = (1/2) _ (1/3) = 1/6
 
 - So, the probability of getting a head (coin) and a value less than 3 (dice) is 1/6.
+
+- 10 people came to party. Everyone shake hands with everyone. How many handshakes took place?
+- Each person shakes hands with every other person, which means each person shakes hands with 9 other people (since they don't shake hands with themselves). However, this counts each handshake twice (once for each person involved in the handshake), so you need to divide by 2 to get the total number of unique handshakes.
+
+- The formula for the number of unique handshakes among n people is:
+
+- \[ \text{Number of Handshakes} = \frac{n(n - 1)}{2} \]
+
+- In your case, with 10 people:
+
+- \[ \text{Number of Handshakes} = \frac{10(10 - 1)}{2} = \frac{10 \cdot 9}{2} = \frac{90}{2} = 45 \]
+
+- So, there were 45 handshakes that took place at the party.
