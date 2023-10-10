@@ -30,3 +30,28 @@
 - 1110 = E in hexadecimal
 - 11 = 3 in hexadecimal
 - So, the hexadecimal representation of the binary number 01110100111011 is 74E3.
+
+- Convert this octal number to hexadecimal number
+  - 127416
+- Convert octal to binary:
+- 1 (octal) = 001 (binary)
+- 2 (octal) = 010 (binary)
+- 7 (octal) = 111 (binary)
+- 4 (octal) = 100 (binary)
+- 1 (octal) = 001 (binary)
+- 6 (octal) = 110 (binary)
+
+- So, the binary representation of the octal number 127416 is 00101011110000110.
+
+- Now, group the binary digits into sets of four, starting from the right (adding leading zeros if necessary):
+
+  - 00 1010 1111 0000 110
+
+- Convert each group of four binary digits into hexadecimal:
+- 0010 = 2 in hexadecimal
+- 1010 = A in hexadecimal
+- 1111 = F in hexadecimal
+- 0000 = 0 in hexadecimal
+- 110 = 6 in hexadecimal (with leading zeros dropped)
+
+- So, the hexadecimal representation of the octal number 127416 is 2AF06.
