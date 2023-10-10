@@ -55,3 +55,26 @@
 - 110 = 6 in hexadecimal (with leading zeros dropped)
 
 - So, the hexadecimal representation of the octal number 127416 is 2AF06.
+
+- If you throw a dice and toss a coin at the same time, what is the probability that you will get head (coin) and value less than 3 (dice)?
+- When throwing a fair six-sided die and flipping a fair coin simultaneously, let's consider the outcomes for each event:
+
+- For the die:
+
+  - There are 6 possible outcomes: 1, 2, 3, 4, 5, and 6.
+
+- For the coin:
+
+  - There are 2 possible outcomes: Heads (H) or Tails (T).
+
+- To find the probability of getting a head (H) on the coin and a value less than 3 on the die (i.e., a 1 or a 2), we need to calculate the probability of each event separately and then multiply them because the events are independent.
+
+- Probability of getting a head on the coin (H) = 1/2 (since there are 2 equally likely outcomes, and H is one of them).
+
+- Probability of getting a value less than 3 on the die (1 or 2) = 2/6 = 1/3 (since there are 2 successful outcomes out of 6 equally likely outcomes).
+
+- Now, multiply the probabilities of the two independent events to find the overall probability:
+
+- P(H and value less than 3) = P(H) _ P(value less than 3) = (1/2) _ (1/3) = 1/6
+
+- So, the probability of getting a head (coin) and a value less than 3 (dice) is 1/6.
