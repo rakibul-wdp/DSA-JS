@@ -91,3 +91,26 @@
 - \[ \text{Number of Handshakes} = \frac{10(10 - 1)}{2} = \frac{10 \cdot 9}{2} = \frac{90}{2} = 45 \]
 
 - So, there were 45 handshakes that took place at the party.
+
+- Section A and B have 25 students and 20 students, respectively. If a team of 11 players need to be formed and 6 students must be from A and the others from B, how many ways are there to form the team? How many batting order would be there?
+
+- To form a team of 11 players with 6 students from section A and the remaining 5 students from section B, you can use combinations.
+
+- First, calculate the number of ways to choose 6 students from section A (25 students) and 5 students from section B (20 students):
+
+- Ways to choose 6 students from A = C(25, 6) = 177,100 ways
+- Ways to choose 5 students from B = C(20, 5) = 15,504 ways
+
+- Now, to form the complete team, you can multiply these two values because these selections are independent:
+
+- Total ways to form the team = Ways from A _ Ways from B = 177,100 _ 15,504 = 2,748,750,400 ways
+
+- So, there are 2,748,750,400 ways to form the team.
+
+- Now, let's calculate the number of possible batting orders for the team. To do this, you simply need to find the permutations of the 11 players in the team.
+
+- The number of permutations of 11 players is given by 11!, which is 11 factorial:
+
+- 11! = 11 × 10 × 9 × 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 = 39,916,800
+
+- So, there are 39,916,800 possible batting orders for the team.
