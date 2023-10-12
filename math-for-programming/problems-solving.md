@@ -82,3 +82,39 @@ LCM(77, 121) = \frac{{\left| 77 \times 121 \right|}}{{11}} = \frac{{9317}}{{11}}
 So, LCM(77, 121) = 847.
 
 We have successfully found the GCD and LCM of 77 and 121.
+
+# Question 03
+
+- In a cricket match, you have a squad of 15 players and you need to select 11 for a game. The two opening batsman are fixed and the rest of the players are flexible. How many batting orders are possible for the game?
+
+## Cricket Batting Order Combinations
+
+In a cricket match, you have a squad of 15 players, and you need to select 11 for a game. The two opening batsmen are fixed, and the rest of the players are flexible.
+
+### Finding the Number of Batting Order Combinations
+
+To calculate the number of possible batting orders for the game, we need to consider the fixed positions (opening batsmen) and the flexible positions (the remaining 9 players).
+
+1. Fixed Positions (Opening Batsmen): There are 2 opening batsmen, and their positions are already determined.
+
+2. Flexible Positions: The remaining 9 players can bat in various orders.
+
+To find the number of batting order combinations, we calculate the permutations of the 9 flexible players in the remaining positions.
+
+Number of flexible players = 9
+
+Number of flexible positions available = 11 (total positions - 2 fixed positions)
+
+Using the permutation formula:
+
+\[
+\text{Number of batting order combinations} = P(9, 11) = \frac{9!}{(9-11)!} = \frac{9!}{(-2)!} = \frac{9!}{1} = 9!
+\]
+
+Now, let's calculate it:
+
+\[
+9! = 9 \times 8 \times 7 \times 6 \times 5 \times 4 \times 3 \times 2 \times 1 = 362,880
+\]
+
+So, there are 362,880 possible batting order combinations for the game when the two opening batsmen are fixed, and the rest of the positions are flexible.
