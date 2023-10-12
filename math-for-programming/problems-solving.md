@@ -118,3 +118,10 @@ Now, let's calculate it:
 \]
 
 So, there are 362,880 possible batting order combinations for the game when the two opening batsmen are fixed, and the rest of the positions are flexible.
+
+# Question 04
+
+- Let's assume the length and width of the rectangle is X and Y.
+  Area of two green circle = ( 3.1416 × (10 cm)^2 ) × 2 = 628.32 cm²
+  So, Area of the yellow region outside of the circles = (X × Y) - (628.32 cm²)
+  Ans: (X × Y) - (628.32 cm²).
