@@ -125,3 +125,51 @@ So, there are 362,880 possible batting order combinations for the game when the 
   Area of two green circle = ( 3.1416 × (10 cm)^2 ) × 2 = 628.32 cm²
   So, Area of the yellow region outside of the circles = (X × Y) - (628.32 cm²)
   Ans: (X × Y) - (628.32 cm²).
+
+# Question 05
+
+- Find the 100th term of the following sequence
+- 3, 10, 17, 24, ...
+- Also find the sum of the first 100 terms.
+
+## Sequence and Sum of Terms
+
+Consider the sequence:
+
+3, 10, 17, 24, ...
+
+### Finding the 100th Term
+
+To find the 100th term of the sequence, we can observe that the common difference between consecutive terms is 7 (each term increases by 7). Therefore, we can calculate the 100th term as follows:
+
+\[ \text{Term}\_n = \text{Term}\_1 + (n - 1) \times \text{Common Difference} \]
+
+Where:
+
+- Term₁ (the first term) = 3
+- Common Difference = 7
+- n (the term number we want to find) = 100
+
+Plugging in the values:
+
+\[ \text{Term}\_{100} = 3 + (100 - 1) \times 7 = 3 + 99 \times 7 = 3 + 693 = 696 \]
+
+So, the 100th term of the sequence is 696.
+
+### Finding the Sum of the First 100 Terms
+
+To find the sum of the first 100 terms of the sequence, we can use the formula for the sum of an arithmetic series:
+
+\[ \text{Sum} = \frac{n}{2} \left(2a + (n - 1)d\right) \]
+
+Where:
+
+- n = 100 (number of terms)
+- a = 3 (the first term)
+- d = 7 (common difference)
+
+Plugging in the values:
+
+\[ \text{Sum} = \frac{100}{2} \left(2 \times 3 + (100 - 1) \times 7\right) = 50 \left(6 + 99 \times 7\right) = 50 \left(6 + 693\right) = 50 \times 699 = 34,950 \]
+
+So, the sum of the first 100 terms of the sequence is 34,950.
