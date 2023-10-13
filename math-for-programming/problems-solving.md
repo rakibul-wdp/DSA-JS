@@ -173,3 +173,43 @@ Plugging in the values:
 \[ \text{Sum} = \frac{100}{2} \left(2 \times 3 + (100 - 1) \times 7\right) = 50 \left(6 + 99 \times 7\right) = 50 \left(6 + 693\right) = 50 \times 699 = 34,950 \]
 
 So, the sum of the first 100 terms of the sequence is 34,950.
+
+# Question 06
+
+- Two taps, T1 and T2 can fill and empty tank in 20 minutes and 15 minutes, respectively. They both were turned on to fill the tank, but tap T1 was turned off after some time, and tap T2 took 10 minutes to fill the tank. Find out after how much time tap T1 was turned off?
+
+## Problem Solving with Taps
+
+Two taps, T1 and T2, can fill and empty a tank at different rates. T1 can fill the tank in 20 minutes, and T2 can fill the tank in 15 minutes. They were both turned on to fill the tank, but tap T1 was turned off after some time, and it took tap T2 a total of 10 minutes to fill the tank completely. We want to find out after how much time tap T1 was turned off.
+
+### Solution
+
+To solve this problem, we can use the concept of rates. The rates of T1 and T2 are inversely proportional to the time it takes for each tap to fill or empty the tank.
+
+- Tap T1 can fill the tank in 20 minutes, so its rate is \(R1 = \frac{1}{20}\) tanks per minute.
+- Tap T2 can fill the tank in 15 minutes, so its rate is \(R2 = \frac{1}{15}\) tanks per minute.
+
+When both taps are turned on together, their combined rate is the sum of their individual rates:
+
+Combined Rate (T1 and T2) = \(R1 + R2 = \frac{1}{20} + \frac{1}{15}\)
+
+After calculating the combined rate, we find that it's \(\frac{7}{60}\) tanks per minute.
+
+Since T2 took 10 minutes to fill the tank at this combined rate, we calculate the work done during this time:
+
+Work = Rate × Time
+Work = \(\frac{7}{60}\) tanks/minute × 10 minutes = \(\frac{7}{6}\) tanks
+
+The remaining work to be done by T1 is the total work minus the work done by T2:
+
+Remaining Work by T1 = Total Work - Work done by T2
+Remaining Work by T1 = 1 tank - \(\frac{7}{6}\) tanks = \(\frac{1}{6}\) tanks
+
+Using the rate of T1 (\(R1 = \frac{1}{20}\) tanks per minute), we can calculate the time it took T1 to do this remaining work:
+
+Time = \(\frac{\text{Work}}{\text{Rate}}\)
+Time = \(\frac{\frac{1}{6}\) tanks}{\(\frac{1}{20}\) tanks per minute}
+Time = \(\frac{1}{6} \times 20\) minutes
+Time = \(3 \frac{1}{3}\) minutes, which is equivalent to 3 minutes and 20 seconds.
+
+Therefore, tap T1 was turned off after 3 minutes and 20 seconds.
