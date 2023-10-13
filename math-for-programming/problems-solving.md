@@ -238,3 +238,28 @@ Your friend deposited 10,500 BDT in a bank and received a total of 12,150 BDT af
 In comparison, you deposited 15,100 BDT in another bank and received a total of 18,755 BDT after 5 years.
 
 It appears that your investment yielded a higher return compared to your friend's investment over a longer duration.
+
+# Question 08
+
+- Convert the hexadecimal number denoted by A1E7 to an octal number.
+
+## Hexadecimal to Octal Conversion
+
+To convert the hexadecimal number A1E7 to octal, follow these steps:
+
+1. Convert A1E7 to binary:
+
+   - A1E7 = 10100001110111 in binary
+
+2. Group the binary digits in sets of three, starting from the right:
+
+   - 101 000 011 101 11
+
+3. Convert each group of three binary digits to octal:
+   - 101 (in binary) = 5 (in octal)
+   - 000 (in binary) = 0 (in octal)
+   - 011 (in binary) = 3 (in octal)
+   - 101 (in binary) = 5 (in octal)
+   - 11 (in binary) = 3 (in octal)
+
+So, the octal representation of the hexadecimal number A1E7 is 50353.
