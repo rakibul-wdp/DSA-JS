@@ -213,3 +213,28 @@ Time = \(\frac{1}{6} \times 20\) minutes
 Time = \(3 \frac{1}{3}\) minutes, which is equivalent to 3 minutes and 20 seconds.
 
 Therefore, tap T1 was turned off after 3 minutes and 20 seconds.
+
+# Question 07
+
+- Your friend deposited 10,500 BDT in a bank and received 12,150 BDT in total after 3 years.
+- You deposited 15,100 BDT in another bank and received 18,755 BDT in total after 5 years.
+
+## Investment Growth Comparison
+
+### Your Friend's Investment
+
+- Initial Deposit: 10,500 BDT
+- Investment Duration: 3 years
+- Total Amount Received: 12,150 BDT
+
+Your friend deposited 10,500 BDT in a bank and received a total of 12,150 BDT after 3 years.
+
+### Your Investment
+
+- Initial Deposit: 15,100 BDT
+- Investment Duration: 5 years
+- Total Amount Received: 18,755 BDT
+
+In comparison, you deposited 15,100 BDT in another bank and received a total of 18,755 BDT after 5 years.
+
+It appears that your investment yielded a higher return compared to your friend's investment over a longer duration.
