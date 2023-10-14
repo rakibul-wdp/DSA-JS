@@ -263,3 +263,51 @@ To convert the hexadecimal number A1E7 to octal, follow these steps:
    - 11 (in binary) = 3 (in octal)
 
 So, the octal representation of the hexadecimal number A1E7 is 50353.
+
+# Question 09:
+
+- You have two boxes, box A and box B.
+
+- In box A, there are 5 red balls and 10 green balls.
+- In box B, there are 3 red balls and 7 green balls.
+- If you pick a ball from box A, what is the probability that this is a red ball?
+- If you pick a ball from box B, what is the probability that this is a red ball?
+
+- If you pick one from A and one from B, what is the probability that both of them are red balls?
+
+## Probability Questions with Two Boxes
+
+You have two boxes, box A and box B, each containing both red and green balls.
+
+- In box A, there are 5 red balls and 10 green balls.
+- In box B, there are 3 red balls and 7 green balls.
+
+### Probability of Drawing a Red Ball from Box A
+
+To find the probability of drawing a red ball from box A, you can use the formula for probability:
+
+\[
+\text{Probability of red ball from A} = \frac{\text{Number of red balls in A}}{\text{Total number of balls in A}} = \frac{5}{5 + 10} = \frac{5}{15} = \frac{1}{3}
+\]
+
+So, the probability of drawing a red ball from box A is 1/3.
+
+### Probability of Drawing a Red Ball from Box B
+
+Similarly, to find the probability of drawing a red ball from box B:
+
+\[
+\text{Probability of red ball from B} = \frac{\text{Number of red balls in B}}{\text{Total number of balls in B}} = \frac{3}{3 + 7} = \frac{3}{10}
+\]
+
+So, the probability of drawing a red ball from box B is 3/10.
+
+### Probability of Drawing Both Red Balls, One from A and One from B
+
+To find the probability of drawing a red ball from both box A and box B, you multiply the probabilities of these two events because they are independent:
+
+\[
+\text{Probability of both being red} = \left(\frac{1}{3}\right) \times \left(\frac{3}{10}\right) = \frac{1}{3} \times \frac{3}{10} = \frac{1}{10}
+\]
+
+So, the probability of drawing a red ball from both box A and box B is 1/10.
