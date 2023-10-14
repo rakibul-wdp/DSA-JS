@@ -311,3 +311,43 @@ To find the probability of drawing a red ball from both box A and box B, you mul
 \]
 
 So, the probability of drawing a red ball from both box A and box B is 1/10.
+
+# Question 10
+
+- Eight students took a test on 30 marks and got the following scores: 10, 27, 12, 18, 30, 9, 24, 28
+- What is the mean score and express the score in percentage. Also find the median score.
+
+## Test Scores Analysis
+
+Eight students took a test, and the scores obtained are as follows:
+
+- Scores: 10, 27, 12, 18, 30, 9, 24, 28
+- Total Marks: 30
+
+### Calculating the Mean Score
+
+To calculate the mean score, we sum up all the scores and divide by the number of students:
+
+Mean Score = \(\frac{{10 + 27 + 12 + 18 + 30 + 9 + 24 + 28}}{8} = \frac{158}{8} = 19.75\)
+
+The mean score is 19.75 marks.
+
+### Expressing the Mean Score in Percentage
+
+To express the mean score in percentage, we need to find what percentage of the total marks (30) the mean score (19.75) represents:
+
+Percentage Score = \(\frac{{\text{Mean Score}}}{{\text{Total Marks}}} \times 100\% = \frac{{19.75}}{{30}} \times 100\% \approx 65.83\%\)
+
+So, the mean score is approximately 65.83% of the total marks.
+
+### Finding the Median Score
+
+To find the median score, we first need to arrange the scores in ascending order:
+
+Scores: 9, 10, 12, 18, 24, 27, 28, 30
+
+Since there are 8 scores, the median will be the average of the middle two scores:
+
+Median Score = \(\frac{{12 + 18}}{2} = \frac{30}{2} = 15\)
+
+The median score is 15 marks.
