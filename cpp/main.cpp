@@ -3,14 +3,16 @@ using namespace std;
 
 int main()
 {
-  int *a = new int;
-  *a = 10;
+  int *a = new int[5];
+  for (int i = 0; i < 5; i++)
+  {
+    cin >> a[i];
+  }
 
-  cout << *a << endl;
-
-  float *f = new float;
-  *f = 2.56;
-  cout << *f << endl;
+  for (int i = 0; i < 5; i++)
+  {
+    cout << a[i] << endl;
+  }
 
   return 0;
 }
