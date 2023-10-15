@@ -8,25 +8,26 @@ public:
   int roll;
   int cls;
   char section;
+
+  Student(int r, int s, int c, char *n)
+  {
+    roll = r;
+    section = s;
+    cls = c;
+    strcpy(name, n);
+  }
 };
+
+Student fun()
+{
+  char name[100] = "Abul";
+  Student abul(29, 'C', 7, name);
+  return abul;
+}
 
 int main()
 {
-  Student abul;
-  abul.roll = 29;
-  abul.cls = 9;
-  abul.section = 'A';
-  char nm[100] = "Abul";
-  strcpy(abul.name, nm);
-
-  Student babul;
-  babul.roll = 55;
-  babul.cls = 9;
-  babul.section = 'B';
-  char nm2[100] = "Babul";
-  strcpy(babul.name, nm2);
-
-  cout << abul.name;
+  Student abul = fun();
 
   return 0;
 }
