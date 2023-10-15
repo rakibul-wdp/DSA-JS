@@ -12,3 +12,18 @@ void merge_sort(int A[], int left, int right) {
 
   merge(A, left, mid, right);
 }
+
+void merge(int A[], int left, int mid, int right) {
+  int i;
+  int index_a, index_l, index_r;
+  int size_left, size_right;
+
+  size_left = mid - left + 1;
+  size_right = right - mid;
+
+  int L[size_left], R[size_right];
+
+  for (i = 0; i < size_left; i++) {
+    L[i] = A[left + i];
+  }
+}
