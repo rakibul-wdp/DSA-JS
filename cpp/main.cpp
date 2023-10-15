@@ -1,18 +1,32 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+class Student
+{
+public:
+  char name[100];
+  int roll;
+  int cls;
+  char section;
+};
+
 int main()
 {
-  int *a = new int[5];
-  for (int i = 0; i < 5; i++)
-  {
-    cin >> a[i];
-  }
+  Student abul;
+  abul.roll = 29;
+  abul.cls = 9;
+  abul.section = 'A';
+  char nm[100] = "Abul";
+  strcpy(abul.name, nm);
 
-  for (int i = 0; i < 5; i++)
-  {
-    cout << a[i] << endl;
-  }
+  Student babul;
+  babul.roll = 55;
+  babul.cls = 9;
+  babul.section = 'B';
+  char nm2[100] = "Babul";
+  strcpy(babul.name, nm2);
+
+  cout << abul.name;
 
   return 0;
 }
