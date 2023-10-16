@@ -27,3 +27,16 @@ void merge(int A[], int left, int mid, int right) {
     L[i] = A[left + i];
   }
 }
+
+int main() {
+  int i, n = 8;
+  int A[] = {1, 5, 6, 3, 5, 8, 7, 2, 9};
+
+  merge_sort(A, 0, n);
+
+  for (i = 0; i <= n; i++) {
+    printf("%d  ", A[i]);
+  }
+
+  printf("\n");
+}
