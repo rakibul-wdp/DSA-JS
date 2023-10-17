@@ -6,6 +6,7 @@ struct node {
   int data;
   Node *left;
   Node *right;
+  Node *parent;
 };
 
 Node *bst_insert(Node *root, Node *node) {
@@ -31,6 +32,18 @@ Node *bst_insert(Node *root, Node *node) {
     add_left_child(parent_node, node);
   } else {
     add_right_child(parent_node, node);
+  }
+
+  return root;
+}
+
+Node *bst_transplant(Node *root, Node *current_node, Node *new_node) {
+  if (current_node == root) {
+    root = new_node;
+  } else if (current_node == current_node->parent->left) {
+    add_left_child(current_node->parent, new_node);
+  } else {
+    add_right_child(current_node->parent, new_node);
   }
 
   return root;
