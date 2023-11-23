@@ -1,17 +1,25 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-  try {
-    int age = 15;
-  if (age >= 18) {
-    cout << "Access granted - you are old enough.";
-  } else {
-    throw 505;
-  }
-  }
-  catch (...) {
-    cout << "Access denied - You must be at least 18 years odl.\n";
+int main()
+{
+  int a;
+  cin >> a;
+
+  switch (a)
+  {
+  case 1:
+    cout << "One" << endl;
+    break;
+  case 2:
+    cout << "Two" << endl;
+    break;
+  case 3:
+    cout << "Three" << endl;
+    break;
+
+  default:
+    cout << "Nothing" << endl;
   }
 
   return 0;
