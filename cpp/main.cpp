@@ -3,29 +3,17 @@ using namespace std;
 
 int main()
 {
-  char vowel;
-  cin >> vowel;
+  int a;
+  cin >> a;
 
-  switch (vowel)
+  switch (a % 2)
   {
-  case 'a':
-    cout << "vowel" << endl;
-    break;
-  case 'e':
-    cout << "vowel" << endl;
-    break;
-  case 'i':
-    cout << "vowel" << endl;
-    break;
-  case 'o':
-    cout << "vowel" << endl;
-    break;
-  case 'u':
-    cout << "vowel" << endl;
+  case 0:
+    cout << "even" << endl;
     break;
 
   default:
-    cout << "consonant" << endl;
+    cout << "odd" << endl;
   }
 
   return 0;
