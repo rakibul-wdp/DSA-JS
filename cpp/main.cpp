@@ -3,23 +3,29 @@ using namespace std;
 
 int main()
 {
-  int a;
-  cin >> a;
+  char vowel;
+  cin >> vowel;
 
-  switch (a)
+  switch (vowel)
   {
-  case 1:
-    cout << "One" << endl;
+  case 'a':
+    cout << "vowel" << endl;
     break;
-  case 2:
-    cout << "Two" << endl;
+  case 'e':
+    cout << "vowel" << endl;
     break;
-  case 3:
-    cout << "Three" << endl;
+  case 'i':
+    cout << "vowel" << endl;
+    break;
+  case 'o':
+    cout << "vowel" << endl;
+    break;
+  case 'u':
+    cout << "vowel" << endl;
     break;
 
   default:
-    cout << "Nothing" << endl;
+    cout << "consonant" << endl;
   }
 
   return 0;
