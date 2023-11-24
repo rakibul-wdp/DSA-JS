@@ -3,18 +3,11 @@ using namespace std;
 
 int main()
 {
-  int a;
-  cin >> a;
+  int a, b;
+  cin >> a >> b;
 
-  switch (a % 2)
-  {
-  case 0:
-    cout << "even" << endl;
-    break;
-
-  default:
-    cout << "odd" << endl;
-  }
+  cout << min(a, b) << endl
+       << max(a, b) << endl;
 
   return 0;
 }
