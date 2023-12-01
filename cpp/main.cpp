@@ -3,21 +3,13 @@ using namespace std;
 
 int main()
 {
-  int n;
-  cin >> n;
-  int arr[n];
-  for (int i = 0; i < n; i++)
-  {
-    cin >> arr[i];
-  }
+  string str = "Hello World";
 
-  // sorting
-  sort(arr, arr + n);
-
-  for (int i = 0; i < n; i++)
-  {
-    cout << arr[i] << "";
-  }
+  cout << str.size() << endl;
+  cout << str.max_size() << endl;
+  cout << str.max_size() << endl;
+  // str.clear();
+  // cout << str.empty() << endl;
 
   return 0;
 }
