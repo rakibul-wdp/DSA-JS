@@ -1,1 +1,1 @@
-# C, C++, DSA, and Math for Programming
+# JavaScript Algorithm and Data Structure
