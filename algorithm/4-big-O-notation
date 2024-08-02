@@ -6,7 +6,7 @@
   - It is expressed in terms of the input
   - It focuses on the bigger picture without getting caught up in the minute details
 
-```js
+```javascript
 function summation(n) {
   // n = 4
   let sum = 0; // 1
