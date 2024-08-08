@@ -12,4 +12,13 @@ recursiveFibonacci(1) = 1
 recursiveFibonacci(6) = 8
 */
 
-function fibonacci(n) {}
+function fibonacci(n) {
+  if (n < 2) return n;
+
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+console.log(fibonacci(4));
+
+// O(n) - iterative
+// O(2^n) - recursive
