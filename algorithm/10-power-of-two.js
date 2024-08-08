@@ -24,3 +24,11 @@ function isPowerOfTwoAlt(n) {
 }
 
 // Big-O - O(logn)
+
+function isPowerOfTwoBitWise(n) {
+  if (n < 1) return false;
+
+  return (n & (n - 1)) === 0;
+}
+
+console.log(isPowerOfTwoBitWise(9));
