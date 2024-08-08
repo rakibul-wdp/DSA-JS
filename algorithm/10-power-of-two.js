@@ -32,3 +32,5 @@ function isPowerOfTwoBitWise(n) {
 }
 
 console.log(isPowerOfTwoBitWise(9));
+
+// Big-O - O(1)
