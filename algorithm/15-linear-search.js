@@ -7,12 +7,13 @@ arr = [-5, 2, 10, 4, 6], t = 10 -> should return 2
 */
 
 function findElement(arr, t) {
-  let foundedElement = -1;
   for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === t) foundedElement = i;
+    if (arr[i] === t) return i;
   }
 
-  return foundedElement;
+  return -1;
 }
 
-console.log(findElement([-5, 2, 10, 4, 6], 6));
+console.log(findElement([-5, 2, 10, 4, 6], 10));
+
+// Big-O = O(n)
