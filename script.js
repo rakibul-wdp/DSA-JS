@@ -1,6 +1,6 @@
-function f(a, b) {
+const f = function (a, b) {
   const sum = a + b;
   return sum;
-}
+};
 
-console.log(f(3, 5));
+console.log(f(5, 3));
