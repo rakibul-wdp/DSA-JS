@@ -1,10 +1,9 @@
 function createFunction() {
+  return f;
   function f(a, b) {
     const sum = a + b;
     return sum;
   }
-
-  return f;
 }
 
 const f = createFunction();
