@@ -1,6 +1,11 @@
-const result = (function (a, b) {
-  const sum = a + b;
-  return sum;
-})(3, 4);
+function createFunction() {
+  function f(a, b) {
+    const sum = a + b;
+    return sum;
+  }
 
-console.log(result);
+  return f;
+}
+
+const f = createFunction();
+console.log(f(3, 4));
