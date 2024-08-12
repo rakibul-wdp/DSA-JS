@@ -1,10 +1,6 @@
-function createAdded(a) {
-  function f(b) {
-    const sum = a + b;
-    return sum;
-  }
-  return f;
+function f(...args) {
+  console.log(args);
+  const sum = args[0] + args[1];
+  return sum;
 }
-
-const f = createAdded(3);
-console.log(f(4));
+console.log(f(3, 4));
