@@ -1,10 +1,10 @@
-function createFunction() {
-  return f;
-  function f(a, b) {
+function createAdded(a) {
+  function f(b) {
     const sum = a + b;
     return sum;
   }
+  return f;
 }
 
-const f = createFunction();
-console.log(f(3, 4));
+const f = createAdded(3);
+console.log(f(4));
