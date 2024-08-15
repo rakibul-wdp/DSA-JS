@@ -1,9 +1,23 @@
-function createAdder(a) {
-  return function add(b) {
-    const sum = a + b;
-    return sum;
+/**
+ * @param {string} val
+ * @return {Object}
+ */
+var expect = function (mainVal) {
+  return {
+    toBe: function (val) {
+      if (val === mainVal) return true;
+      else throw new Error("Not Equal");
+    },
+    notToBe: function (val) {
+      if (val !== mainVal) return true;
+      else throw new Error("Equal");
+    },
   };
-}
+};
 
-const res = createAdder(2);
-console.log(res(3));
+console.log(expect(5).toBe(5));
+
+/**
+ * expect(5).toBe(5); // true
+ * expect(5).notToBe(5); // throws "Equal"
+ */
