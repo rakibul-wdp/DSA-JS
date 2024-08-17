@@ -1,23 +1,27 @@
 /**
- * @param {string} val
- * @return {Object}
+ * @param {integer} init
+ * @return { increment: Function, decrement: Function, reset: Function }
  */
-var expect = function (mainVal) {
+var createCounter = function (init) {
   return {
-    toBe: function (val) {
-      if (val === mainVal) return true;
-      else throw new Error("Not Equal");
+    increment: function () {
+      let initialState = init;
+      return ++initialState;
     },
-    notToBe: function (val) {
-      if (val !== mainVal) return true;
-      else throw new Error("Equal");
+    decrement: function () {
+      let initialState = init;
+      return --initialState;
+    },
+    reset: function () {
+      return init;
     },
   };
 };
 
-console.log(expect(5).toBe(5));
-
-/**
- * expect(5).toBe(5); // true
- * expect(5).notToBe(5); // throws "Equal"
- */
+const counter = createCounter(5);
+console.log(counter.increment()); // 6
+console.log(counter.increment()); // 7
+console.log(counter.decrement()); // 4
+console.log(counter.decrement()); // 3
+console.log(counter.reset()); // 5
+console.log(counter.reset()); // 5
